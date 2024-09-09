@@ -1,0 +1,325 @@
+/* 수정 : 2024.08.30 작성자 : 이인재 // 글씨 겹치는 부분 수정*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    padding: 0
+}
+
+.inner {
+    width: 1176px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.inner::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.content .title {
+    margin: 0 0 40px;
+    font: bold 28px 'Black Han Sans';
+    text-align: center;
+}
+
+.content .txt {
+    margin: 0 0 60px;
+    font: 14px 'Black Han Sans'
+}
+
+@media screen and (max-width: 1200px) {
+    .inner {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        padding: 120px 40px
+    }
+
+    /* 태블릿 : 좌우 40px*/
+}
+
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 80px 40px
+    }
+
+    .content .title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .content {
+        padding: 60px 20px
+    }
+}
+
+@media screen and (max-width: 480px) {}
+
+#header {
+    width: 100%;
+    height: 0;
+}
+
+#visual {
+    display: block;
+    width: 100%;
+}
+
+#footer {
+    width: 100%;
+    background-color: #333;
+}
+
+/* .black-han-sans-regular {
+      font-family: "Black Han Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    } */
+
+.bg-logo {
+    width: 10%;
+    top: 30px;
+    right: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.bg {
+    width: 100%;
+    height: 100pc;
+    position: fixed;
+}
+
+/* .box01{ width: 300px; margin: 0 auto;  margin-top: 50px;} */
+
+.box01 {
+    float: left;
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-family: Black Han Sans;
+}
+
+.box01 .title {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 90px;
+    text-align: center;
+}
+
+.box01 .subtitle {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 120px;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+}
+
+.box01 .touch {
+    width: 300px;
+    height: auto;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box01 .hand {
+    float: left;
+    display: block;
+    width: 30px;
+    height: auto;
+}
+
+.box01 .touch p {
+    float: left;
+    width: calc(100% - 30px);
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .bg {
+        height: 100%;
+    }
+
+    #type1 .box01 {
+        width: 100%;
+    }
+
+    .box01 .title {
+        font-size: 50px;
+    }
+
+    .box01 .subtitle {
+        margin-top: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .bg-logo {
+        width: 25%;
+        top: 20px;
+        right: 20px;
+    }
+
+    .box01 .hand {
+        display: none;
+    }
+
+    .box01 .touch p {
+        font-size: 25px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {}
+
+@media screen and (max-width: 480px) {
+    #type1 .box01 {
+        width: 100%;
+        margin-bottom: 120px;
+        /* .box02와의 간격을 충분히 확보 */
+    }
+
+    .box01 .title {
+        font-size: 40px;
+        /* 텍스트 크기를 줄여 공간 절약 */
+    }
+
+    .box01 .subtitle {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .box01 .touch {
+        padding-top: 30px;
+        /* 상단 여백을 줄여 위치를 위로 이동 */
+        margin-bottom: 30px;
+        /* 하단 여백을 추가 */
+    }
+
+    .box02 {
+        height: 250px;
+        /* 높이를 줄여서 충분한 공간 확보 */
+    }
+
+    .box02 .info {
+        width: 200px;
+        height: 80px;
+        padding: 20px;
+        margin-top: 60px;
+    }
+}
+
+.box02 {
+    position: fixed;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 320px;
+}
+
+.box02 a {
+    display: block;
+    margin: 0 auto;
+    font: 35px 'Black Han Sans';
+    color: #ffffff;
+}
+
+.box02 .info {
+    width: 450px;
+    height: 150px;
+    padding: 60px 130px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 1px solid #ffffff;
+    border-radius: 300px;
+    background-color: #d3d3d341 !important;
+    /* 빨간색 배경 */
+    color: #ffffff;
+    /* 텍스트 색상을 흰색으로 설정 */
+    text-align: center;
+    /* 텍스트를 중앙 정렬 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    /* 그림자 추가로 입체감 부여 */
+}
+
+.box02 .hand {
+    float: left;
+    display: block;
+    width: 30px;
+    margin-right: 20px;
+    height: auto;
+}
+
+.box02 a:hover {
+    background-color: #ffffff50;
+}
+
+.box02 a:visited {
+    background-color: #000000;
+}
+
+@media screen and (max-width: 1200px) {
+    .box02 .info {
+        width: 250px;
+        height: 100px;
+        padding: 30px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 980px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {}
+
+@media screen and (max-width: 480px) {
+    #type1 .box01 {
+        width: 100%;
+    }
+
+    /* 한 줄 → 여러 줄*/
+}
