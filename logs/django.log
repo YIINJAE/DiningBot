@@ -6,3 +6,75 @@
 2024-09-09 08:19:33,579 django.utils.autoreload INFO Watching for file changes with StatReloader
 2024-09-09 08:19:35,484 django.server INFO "GET /Ramen/ HTTP/1.1" 200 216
 2024-09-09 08:19:46,535 django.server INFO "GET /Ramen/ HTTP/1.1" 200 240
+2024-09-09 17:24:53,688 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-09 17:24:56,379 django.request WARNING Not Found: /
+2024-09-09 17:24:56,380 django.server WARNING "GET / HTTP/1.1" 404 2165
+2024-09-09 17:24:56,479 django.request WARNING Not Found: /favicon.ico
+2024-09-09 17:24:56,480 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2216
+2024-09-09 17:24:59,823 django.request ERROR Internal Server Error: /Ramen/
+Traceback (most recent call last):
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\Project\Ramen\views\index_views.py", line 10, in index
+    return render(request, './ramen/new_index.html')
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 958, in render_annotated
+    return self.render(context)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'index02' not found. 'index02' is not a valid view function or pattern name.
+2024-09-09 17:24:59,830 django.server ERROR "GET /Ramen/ HTTP/1.1" 500 122152
+2024-09-09 17:27:23,123 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-09-09 17:27:27,279 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
+2024-09-09 17:27:27,355 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
+2024-09-09 17:27:27,357 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
+2024-09-09 17:27:27,357 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
+2024-09-09 17:27:27,607 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4848
+2024-09-09 17:27:38,670 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
+2024-09-09 17:27:38,707 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
+2024-09-09 17:27:38,708 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
+2024-09-09 17:27:38,710 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
+2024-09-09 17:27:40,503 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
+2024-09-09 17:27:40,521 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
+2024-09-09 17:27:40,523 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
+2024-09-09 17:27:40,523 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
+2024-09-09 17:27:40,999 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
+2024-09-09 17:27:41,018 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
+2024-09-09 17:27:41,019 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
+2024-09-09 17:27:41,020 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
+2024-09-09 17:27:44,377 django.request WARNING Not Found: /Rame
+2024-09-09 17:27:44,378 django.server WARNING "GET /Rame HTTP/1.1" 404 2195
+2024-09-09 17:27:48,549 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
+2024-09-09 17:27:48,603 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 0
+2024-09-09 17:27:48,604 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
+2024-09-09 17:27:48,606 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
+2024-09-09 17:27:48,607 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
+2024-09-09 17:28:20,891 django.request WARNING Not Found: /
+2024-09-09 17:28:20,892 django.server WARNING "GET / HTTP/1.1" 404 2165
+2024-09-09 17:28:21,302 django.request WARNING Not Found: /
+2024-09-09 17:28:21,302 django.server WARNING "GET / HTTP/1.1" 404 2165
+2024-09-09 17:28:25,545 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
+2024-09-09 17:28:25,567 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
+2024-09-09 17:28:25,582 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
+2024-09-09 17:28:25,584 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
+2024-09-09 17:28:25,584 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
+2024-09-09 17:28:45,323 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 230

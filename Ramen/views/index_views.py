@@ -8,3 +8,6 @@ from django.shortcuts import render, get_object_or_404
 
 def index(request):
     return render(request, './ramen/new_index.html')
+
+def oder_select(request):
+    return render(request, './ramen/new_index02.html')
