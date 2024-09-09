@@ -1,4 +1,4 @@
-# 😀Abiman | ENG | DINNIG BOT
+# 😀Abiman | ENG | DINNIG BOT😀
 
 ## 1. 프로젝트 이름
 - Abiman | ENG | DINING BOT  

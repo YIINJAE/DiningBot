@@ -135,56 +135,57 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # ADD : log directory path 24.09.09
-LOG_DIR = BASE_DIR / 'logs'
+# NOTE : Commenting until development is complete
+# LOG_DIR = BASE_DIR / 'logs'
 
-# 로그 디렉토리 생성 확인
-if not LOG_DIR.exists():
-    LOG_DIR.mkdir(parents=True)
+# # 로그 디렉토리 생성 확인
+# if not LOG_DIR.exists():
+#     LOG_DIR.mkdir(parents=True)
 
 
-import os
-import sys
-import logging
+# import os
+# import sys
+# import logging
 
-# 로깅 설정
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'verbose': {
-            'format': '{asctime} {name} {levelname} {message}',
-            'style': '{',
-        },
-        'simple': {
-            'format': '{asctime} {levelname} {message}',  # 날짜와 시간을 로그 메시지의 앞부분에 추가
-            'style': '{',
-            'datefmt': '%Y-%m-%d %H:%M:%S',
-        },
-    },
-    'handlers': {
-        'file': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': LOG_DIR / 'django.log',
-            'formatter': 'verbose',
-        },
-        'console': {
-            'level': 'INFO',
-            'class': 'logging.StreamHandler',
-            'formatter': 'simple',  # 'simple' 포맷터를 사용
-            'stream': sys.stdout,  # 표준 출력을 명시적으로 지정
-        },
-    },
-    'loggers': {
-        'django': {
-            'handlers': ['file', 'console'],
-            'level': 'INFO',
-            'propagate': True,
-        },
-        'my_custom_logger': {
-            'handlers': ['file', 'console'],
-            'level': 'INFO',
-            'propagate': True,
-        },
-    },
-}
+# # 로깅 설정
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'formatters': {
+#         'verbose': {
+#             'format': '{asctime} {name} {levelname} {message}',
+#             'style': '{',
+#         },
+#         'simple': {
+#             'format': '{asctime} {levelname} {message}',  # 날짜와 시간을 로그 메시지의 앞부분에 추가
+#             'style': '{',
+#             'datefmt': '%Y-%m-%d %H:%M:%S',
+#         },
+#     },
+#     'handlers': {
+#         'file': {
+#             'level': 'INFO',
+#             'class': 'logging.FileHandler',
+#             'filename': LOG_DIR / 'django.log',
+#             'formatter': 'verbose',
+#         },
+#         'console': {
+#             'level': 'INFO',
+#             'class': 'logging.StreamHandler',
+#             'formatter': 'simple',  # 'simple' 포맷터를 사용
+#             'stream': sys.stdout,  # 표준 출력을 명시적으로 지정
+#         },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers': ['file', 'console'],
+#             'level': 'INFO',
+#             'propagate': True,
+#         },
+#         'my_custom_logger': {
+#             'handlers': ['file', 'console'],
+#             'level': 'INFO',
+#             'propagate': True,
+#         },
+#     },
+# }
