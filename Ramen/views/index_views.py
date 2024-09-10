@@ -11,3 +11,6 @@ def index(request):
 
 def oder_select(request):
     return render(request, './ramen/new_index02.html')
+
+def manual_oder(request):
+    return render(request, './ramen/new_index04.html')
