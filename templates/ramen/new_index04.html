@@ -1,11 +1,54 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abiman | Dining-bot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style 04.css' %}">
 </head>
+
 <body>
-    <h1>일반주문페이지</h1>
+    <header id="header"></header>
+    <div class="page_btn"></div>
+
+    <section id="visual" data-page-btn="Home">
+        <img src="{% static '/img/ABIMAN-CI-white.png' %}" class="bg-logo" alt="">
+        <img src="{% static '/img/raman-03.jpg' %}" class="bg" alt="">
+        <div class="bg-box"></div>
+    </section>
+
+    <section id="type1" class="content" data-page-btn="Service">
+        <div class="inner">
+            <div class="box01">
+                <h3 class="subtitle">주문수량 확인중</h3>
+            </div>
+            <div class="box02">
+                <div class="info">
+                    <a href="#" class="left" id="decrease"><img src="{% static '/img/left.png' %}" alt=""></a>
+                    <p class="count" id="count">0</p>
+                    <a href="#" class="right" id="increase"><img src="{% static '/img/right-plus.png' %}" alt=""></a>
+                </div>
+            </div>
+
+            <div class="box03">
+                <a href="{% url 'Ramen:index' %}" class="left">
+                    <img src="{% static '/img/again.png' %}" class="again" alt="#">
+                    <p class="btn">다시주문</p>
+                </a>
+                <a href="#" id="confirm" class="right" data-confirm-url="{% url 'Ramen:db_index00' %}">
+                    <img src="{% static '/img/check.png' %}" class="check" alt="#">
+                    <p class="btn">확 인</p>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <script src="{% static 'js/order_count.js' %}"></script>
 </body>
 </html>
