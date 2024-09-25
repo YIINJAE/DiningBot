@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>init_cs_power</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" v  href="{% static '/css/style.css' %}">
+</head>
+<body>
+    <header id="header"></header>
+    <div class="page_btn"></div>
+    <section id="visual" data-page-btn="Home">
+        <img src="{% static '/img/ABIMAN-CI-bagic.png' %}" class="bg-logo" alt="">
+        <img src="{% static '/img/kitchen-bg.jpg' %}" class="bg" alt="">
+    </section>
+    <!-- <h2 style="text-align: center;">상위박스 -거터 있음 / 하위박스 - 가로로 배치</h2> -->
+    <section id="type1" class="content"  data-page-btn="Service">
+        <div class="inner">
+            <div class="box01">
+                <h3 class="subtitle">기다리지 않고 빠르게</h3>
+                <h2 class="title">여기에서<br>주문하세요!</h2>
+                <div class="touch">
+                    <img src="{% static '/img/touth-black.png' %}" class="hand" alt="#">
+                    <P>화면을 터치해 주세요.</P>
+                </div>
+            </div>
+            
+            <div class="box02">
+                <a href="{% url 'Ramen:index02'%}" class="info">
+                    <img src="{% static '/img/fork-white.png' %}" class="hand" alt="#">
+                    <p class="btn">주문하기</p>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
