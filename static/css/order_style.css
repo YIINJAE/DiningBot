@@ -1,0 +1,49 @@
+/* 기본적인 스타일 */
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #000;
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+    border: 1px solid #fff;
+}
+
+.left-panel .cell {
+    color: #ffff00;
+}
+
+.right-panel .cell {
+    color: #16e4f3;
+}
+
+.cell {
+    background-color: #000;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.merged-order-complete {
+    grid-column: span 2;
+    background-color: #000;
+    color: #ffff00;
+    font-size: 50px;
+}
+
+.merged-order-waiting {
+    grid-column: span 2;
+    background-color: #000;
+    color: #00ffff;
+    font-size: 50px;
+}

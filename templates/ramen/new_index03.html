@@ -1,11 +1,41 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abiman | Dining-bot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/style 03.css' %}">
 </head>
 <body>
-    <h1>음성주문페이지</h1>
+    <header id="header"></header>
+    <div class="page_btn"></div>
+    <section id="visual" data-page-btn="Home">
+        <img src="{% static '/img/ABIMAN-CI-white.png' %}" class="bg-logo" alt="">
+        <a href="{% url 'Ramen:index02' %}" class="back"><img src="{% static '/img/back-19.png' %}" class="back" alt=""></a>
+        <img src="{% static '/img/raman-03.jpg' %}" class="bg" alt="">
+        <div class="bg-box"></div>
+    </section>
+    <section id="type1" class="content" data-page-btn="Service">
+        <div class="inner">
+            <div class="box01">
+                <h3 class="subtitle"></h3>
+                <h2 class="title">주문수량을 말씀해 주세요</h2>
+                <p id="result" class="subtitle"></p>
+            </div>
+            <div class="box02">
+                <div class="info">
+                    <img src="{% static 'img/mic--white.png' %}" class="mic" alt="#">
+                    <p class="btn">말씀해주세요</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 외부 JavaScript 파일을 불러옵니다 -->
+    <script src="{% static 'js/voice_order.js' %}"></script>
 </body>
 </html>
