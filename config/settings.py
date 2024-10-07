@@ -20,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-@2to0vdc*4aiy^d&wn1a*3n1cmqij5p7o0a1vem4obghk9zzpw'
+SECRET_KEY = 'django-insecure-*zx=+ba8-02np&+#3p%^#9_k6k@4urtg(lyhjl)+cqdxf=%93s'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.1.210', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #ADD : app경로추가 24.09.09
+    #추가
     'Ramen.apps.RamenConfig',
-    'common.apps.CommonConfig'
+    'common.apps.CommonConfig',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +57,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'Templates'], #ADD : Templates route 24.09.09
+        'DIRS': [BASE_DIR / 'Templates'], # 경로추가
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -105,24 +105,22 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
-# MODIFIED : Time zone _ 24.09.09
+
+# 시간변경
 LANGUAGE_CODE = 'ko-kr'
 
 TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
-# MODIFIED : False => True 24.09.09
-'''
-When displaying time in a command window or similar place in the code, change the default value to True
-'''
-USE_TZ = True
+# 코드중에 커멘드창 같은곳에 타임 표시 할때 변경 기본값 True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-# MODIFIED : Change route 24.09.09
+# static 경로 변경
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
@@ -134,58 +132,58 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# ADD : log directory path 24.09.09
-# NOTE : Commenting until development is complete
-# LOG_DIR = BASE_DIR / 'logs'
 
-# # 로그 디렉토리 생성 확인
-# if not LOG_DIR.exists():
-#     LOG_DIR.mkdir(parents=True)
+# 로그 디렉토리 경로 추가
+LOG_DIR = BASE_DIR / 'logs'
+
+# 로그 디렉토리 생성 확인
+if not LOG_DIR.exists():
+    LOG_DIR.mkdir(parents=True)
 
 
-# import os
-# import sys
-# import logging
+import os
+import sys
+import logging
 
-# # 로깅 설정
-# LOGGING = {
-#     'version': 1,
-#     'disable_existing_loggers': False,
-#     'formatters': {
-#         'verbose': {
-#             'format': '{asctime} {name} {levelname} {message}',
-#             'style': '{',
-#         },
-#         'simple': {
-#             'format': '{asctime} {levelname} {message}',  # 날짜와 시간을 로그 메시지의 앞부분에 추가
-#             'style': '{',
-#             'datefmt': '%Y-%m-%d %H:%M:%S',
-#         },
-#     },
-#     'handlers': {
-#         'file': {
-#             'level': 'INFO',
-#             'class': 'logging.FileHandler',
-#             'filename': LOG_DIR / 'django.log',
-#             'formatter': 'verbose',
-#         },
-#         'console': {
-#             'level': 'INFO',
-#             'class': 'logging.StreamHandler',
-#             'formatter': 'simple',  # 'simple' 포맷터를 사용
-#             'stream': sys.stdout,  # 표준 출력을 명시적으로 지정
-#         },
-#     },
-#     'loggers': {
-#         'django': {
-#             'handlers': ['file', 'console'],
-#             'level': 'INFO',
-#             'propagate': True,
-#         },
-#         'my_custom_logger': {
-#             'handlers': ['file', 'console'],
-#             'level': 'INFO',
-#             'propagate': True,
-#         },
-#     },
-# }
+# 로깅 설정
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{asctime} {name} {levelname} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '{asctime} {levelname} {message}',  # 날짜와 시간을 로그 메시지의 앞부분에 추가
+            'style': '{',
+            'datefmt': '%Y-%m-%d %H:%M:%S',
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': LOG_DIR / 'django.log',
+            'formatter': 'verbose',
+        },
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple',  # 'simple' 포맷터를 사용
+            'stream': sys.stdout,  # 표준 출력을 명시적으로 지정
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file', 'console'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'my_custom_logger': {
+            'handlers': ['file', 'console'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+    },
+}

@@ -1,0 +1,5 @@
+Django>=3.2,<4.0
+PyAudio==0.2.14
+pyModbusTCP==0.2.2
+SpeechRecognition==3.10.4
+schedule==1.2.2

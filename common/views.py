@@ -3,8 +3,12 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.hashers import check_password #BUG : import 확인
 from django.contrib import messages, auth
 
+
 def page_not_found(request, exception):
     return render(request, 'common/404.html', {})
+
+
+
 
 def change_password(request):
     if request.method == "POST":

@@ -1,0 +1,1958 @@
+2024-10-02 13:58:50,805 - root - INFO - Starting Modbus communication thread...
+2024-10-02 13:58:50,806 - root - INFO - Modbus thread started successfully.
+2024-10-02 13:58:51,245 - root - INFO - Starting Modbus communication thread...
+2024-10-02 13:58:51,246 - root - INFO - Modbus thread started successfully.
+2024-10-02 13:58:51,269 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 13:58:56,091 - django.server - INFO - "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-02 13:58:56,127 - django.server - INFO - "GET /static/css/style%2002.css HTTP/1.1" 304 0
+2024-10-02 14:01:00,183 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:01:00,184 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:01:00,631 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:01:00,633 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:01:46,615 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:01:47,000 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:01:47,001 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:01:47,020 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:02:33,011 - django.server - INFO - "GET /Ramen/get_active_orders/ HTTP/1.1" 200 180
+2024-10-02 14:02:38,988 - django.server - INFO - "GET /Ramen/index04/ HTTP/1.1" 200 2201
+2024-10-02 14:02:41,534 - django.server - INFO - "GET /Ramen/db_index00/?count=1 HTTP/1.1" 200 1074
+2024-10-02 14:02:45,812 - my_custom_logger - INFO - ÏÇ¨Î≤à: 20190118, Ïù¥Î¶Ñ: Ïù¥Ïù∏Ïû¨, Ï£ºÎ¨∏ÏàòÎüâ: 1
+2024-10-02 14:02:45,832 - django.server - INFO - "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-10-02 14:02:46,044 - root - INFO - PLCÏóê Ï£ºÎ¨∏ ÏàòÎüâ 1 Ï†ÑÏÜ° ÏÑ±Í≥µ - ÏÇ¨Î≤à: 20190118
+2024-10-02 14:02:46,050 - django.server - INFO - "GET /Ramen/index05/1/20190118/ HTTP/1.1" 200 1544
+2024-10-02 14:02:51,125 - django.server - INFO - "GET /Ramen/?count=1 HTTP/1.1" 200 1684
+2024-10-02 14:06:04,292 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:06:04,695 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:06:04,696 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:06:04,701 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:04,722 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:06:09,713 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:14,724 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:19,733 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:24,747 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:24,817 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:06:25,230 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:06:25,231 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:06:25,236 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:25,252 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:06:26,245 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:27,251 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:28,256 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:29,266 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:30,271 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:31,281 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:32,288 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:33,294 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:34,305 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:35,312 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:36,322 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:36,552 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:06:36,992 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:06:36,993 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:06:37,005 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:37,031 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:06:42,017 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:45,169 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:06:45,564 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:06:45,565 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:06:45,573 - root - INFO - Received Modbus data: [40]
+2024-10-02 14:06:45,588 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:07:28,343 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:07:28,851 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:07:28,852 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:07:28,858 - root - INFO - Received Modbus data: [27646]
+2024-10-02 14:07:28,876 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:23:23,389 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:23:23,882 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:23:23,883 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:23:23,889 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:23:23,907 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:23:28,898 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:23:33,911 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:23:38,922 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:23:43,937 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:23:48,949 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:23:53,959 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:23:58,969 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:03,980 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:08,989 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:14,004 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:17,756 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:24:18,229 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:24:18,231 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:24:18,241 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:18,266 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:24:20,250 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:22,261 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:24,268 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:26,276 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:28,283 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:30,290 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:32,301 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:34,310 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:36,317 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:38,325 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:40,334 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:42,342 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:44,348 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:46,355 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:24:48,363 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:24:48,363 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:24:48,389 - root - INFO - Updated order 20190118: remaining_count = 6
+2024-10-02 14:24:50,396 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:24:50,396 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:24:50,419 - root - INFO - Updated order 20190118: remaining_count = 5
+2024-10-02 14:24:52,429 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:24:52,430 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:26:01,453 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:26:01,846 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:26:01,847 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:26:01,856 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:01,873 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:26:03,863 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:05,870 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:07,879 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:09,886 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:11,892 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:26:11,893 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:26:11,917 - root - INFO - Updated order 20190118: remaining_count = 4
+2024-10-02 14:26:13,927 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:26:13,928 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:26:13,947 - root - INFO - Updated order 20190118: remaining_count = 3
+2024-10-02 14:26:15,954 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:26:15,954 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:26:15,974 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:26:17,981 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:26:17,982 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:26:18,000 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:26:20,007 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:26:20,007 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:26:20,025 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:26:22,032 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:24,039 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:26,048 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:28,055 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:30,062 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:32,069 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:34,076 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:36,085 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:38,091 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:38,474 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:26:38,553 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:26:38,556 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1904
+2024-10-02 14:26:40,098 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:42,106 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:44,112 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:46,118 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:48,126 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:50,133 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:52,142 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:54,149 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:26:56,156 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:26:56,157 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:26:56,176 - root - INFO - Updated order 20190118: remaining_count = 7
+2024-10-02 14:26:58,183 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:26:58,183 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:26:58,205 - root - INFO - Updated order 20190118: remaining_count = 6
+2024-10-02 14:27:00,211 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:27:00,212 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:27:00,228 - root - INFO - Updated order 20190118: remaining_count = 5
+2024-10-02 14:27:02,237 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:27:02,237 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:27:02,261 - root - INFO - Updated order 20190118: remaining_count = 4
+2024-10-02 14:27:04,271 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:27:04,271 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:27:04,290 - root - INFO - Updated order 20190118: remaining_count = 3
+2024-10-02 14:27:06,298 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:27:06,299 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:27:06,316 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:27:08,325 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:27:08,326 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:27:08,346 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:27:10,355 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:12,362 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:14,369 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:16,378 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:18,386 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:20,393 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:22,400 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:24,407 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:26,412 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:27,331 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:27,360 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1796
+2024-10-02 14:27:27,361 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:27,424 - django.server - INFO - "GET /Ramen/get_active_orders/ HTTP/1.1" 200 480
+2024-10-02 14:27:28,420 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:29,280 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:29,306 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1796
+2024-10-02 14:27:29,307 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:29,367 - django.server - INFO - "GET /Ramen/get_active_orders/ HTTP/1.1" 200 480
+2024-10-02 14:27:30,428 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:32,384 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:32,410 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1796
+2024-10-02 14:27:32,412 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:32,437 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:32,469 - django.server - INFO - "GET /Ramen/get_active_orders/ HTTP/1.1" 200 480
+2024-10-02 14:27:34,443 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:36,305 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:36,329 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:36,329 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1796
+2024-10-02 14:27:36,386 - django.server - INFO - "GET /Ramen/get_active_orders/ HTTP/1.1" 200 480
+2024-10-02 14:27:36,450 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:38,458 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:39,857 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:39,892 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:39,893 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:27:40,469 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:42,477 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:42,968 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:42,999 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:43,001 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:27:44,485 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:46,088 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:46,113 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:46,114 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:27:46,492 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:48,501 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:49,193 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:49,216 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:49,216 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:27:50,508 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:27:52,299 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:52,328 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:52,330 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:27:52,515 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:27:52,516 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:27:52,536 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:27:54,544 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:27:54,544 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:27:54,563 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:27:55,434 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:55,459 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:55,459 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:27:56,569 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:27:56,569 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:27:56,585 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:27:58,541 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:27:58,564 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:27:58,564 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:27:58,591 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:27:58,592 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:27:58,611 - root - INFO - Updated order 20190118: remaining_count = 3
+2024-10-02 14:28:00,619 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:28:00,619 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:28:00,640 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:28:01,646 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:28:01,669 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:01,669 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:02,647 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:28:02,647 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:28:02,670 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:28:04,677 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:28:04,677 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:28:04,703 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:28:04,752 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:28:04,786 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:04,787 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:06,714 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:07,868 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:28:07,892 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:07,892 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:08,721 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:10,728 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:10,970 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:28:10,994 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:10,995 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:12,735 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:14,083 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:28:14,112 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:14,113 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:14,741 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:16,747 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:17,188 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:28:17,213 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:17,214 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:18,754 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:20,299 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:20,327 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:20,328 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:20,761 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:22,768 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:23,410 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:23,433 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:23,433 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:24,775 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:26,527 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:26,596 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:26,597 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:26,781 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:28,785 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:29,663 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:29,686 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:29,686 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:30,794 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:32,766 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:32,788 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:32,789 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:32,805 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:34,814 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:35,859 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:35,907 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:35,907 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:36,825 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:38,832 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:38,986 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:39,011 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:39,012 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:40,839 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:42,095 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:42,116 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:42,117 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:42,846 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:44,854 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:45,198 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:45,239 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:45,241 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:46,866 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:48,322 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:48,348 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:48,351 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:48,873 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:50,881 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:51,420 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:51,459 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:51,459 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:52,887 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:54,532 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:54,561 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:54,562 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:54,893 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:56,901 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:28:57,643 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:28:57,670 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:28:57,671 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:28:58,908 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:00,746 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:00,775 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:00,777 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:00,914 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:02,920 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:03,861 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:03,903 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:03,903 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:04,927 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:06,933 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:06,998 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:07,045 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:07,053 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:08,941 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:10,129 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:10,160 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:10,162 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:10,947 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:12,955 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:13,238 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:13,262 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:13,262 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:14,962 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:16,359 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:16,390 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:16,392 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:16,969 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:18,976 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:19,473 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:19,498 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:19,498 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:20,982 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:22,605 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:22,631 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:22,632 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:22,989 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:24,995 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:25,713 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:25,739 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:25,740 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:27,001 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:28,832 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:28,890 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:28,891 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:29,008 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:31,013 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:31,989 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:32,011 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:32,012 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:33,019 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:35,027 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:35,094 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:35,120 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:35,122 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:37,037 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:38,197 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:38,221 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:38,222 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:39,045 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:41,055 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:41,311 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:41,363 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:41,365 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:43,062 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:44,443 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:44,467 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:44,468 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:45,070 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:47,076 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:47,543 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:47,582 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:47,585 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:49,084 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:50,667 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:50,693 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:50,694 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:51,093 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:53,103 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:53,793 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:53,834 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:53,836 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:55,109 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:56,907 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:29:56,931 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:29:56,933 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:29:57,117 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:29:59,123 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:00,022 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:00,057 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:00,060 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:01,134 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:03,126 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:03,141 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:03,153 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:03,153 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:05,148 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:06,228 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:06,279 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:06,279 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:07,154 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:09,160 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:09,372 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:09,396 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:09,396 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:11,166 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:12,477 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:12,500 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:12,501 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:13,172 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:15,184 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:15,588 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:15,612 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:15,613 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:17,192 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:18,768 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:18,813 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:18,814 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:19,204 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:21,211 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:21,902 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:21,932 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:21,933 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:23,218 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:25,021 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:25,043 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:25,044 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:25,227 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:27,232 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:28,130 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:28,157 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:28,157 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:29,244 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:31,239 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:31,256 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:31,284 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:31,285 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:33,263 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:34,361 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:34,385 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:34,387 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:35,272 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:37,283 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:37,455 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:37,478 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:37,479 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:39,295 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:40,579 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:40,618 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:40,618 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:41,305 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:43,311 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:43,709 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:43,742 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:43,744 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:45,317 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:46,818 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:46,840 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:46,841 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:47,330 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:49,340 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:49,921 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:49,943 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:49,943 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:51,349 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:53,026 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:53,067 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:53,067 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:53,356 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:55,366 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:56,153 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:56,201 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:56,203 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:57,372 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:30:59,242 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:30:59,268 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:30:59,270 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:30:59,379 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:01,389 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:02,383 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:02,416 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:02,418 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:03,396 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:05,402 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:05,506 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:05,540 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:05,540 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:07,410 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:08,615 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:08,644 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:08,645 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:09,419 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:11,426 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:11,726 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:11,763 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:11,769 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:13,439 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:14,854 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:14,880 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:14,880 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:15,447 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:17,457 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:17,965 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:17,992 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:17,992 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:19,464 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:21,078 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:21,114 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:21,115 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:21,475 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:23,483 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:24,195 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:24,227 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:24,229 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:25,489 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:27,319 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:27,361 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:27,362 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:27,496 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:29,505 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:30,438 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:30,467 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:30,470 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:31,512 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:33,519 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:33,558 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:33,596 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:33,598 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:35,531 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:36,688 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:36,714 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:36,716 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:37,542 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:39,550 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:39,825 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:39,857 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:39,857 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:41,557 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:42,939 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:42,966 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:42,968 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:43,564 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:45,575 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:46,054 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:46,094 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:46,097 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:47,583 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:49,212 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:49,279 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:49,280 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:49,593 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:51,601 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:52,325 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:52,360 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:52,362 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:53,613 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:55,449 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:55,474 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:55,475 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:55,619 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:57,625 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:31:58,576 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:31:58,610 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:31:58,611 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:31:59,635 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:01,642 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:01,694 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:01,780 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:01,781 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:03,650 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:04,831 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:04,879 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:04,879 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:05,657 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:07,666 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:07,975 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:08,005 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:08,006 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:09,673 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:11,098 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:11,135 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:11,138 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:11,680 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:13,690 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:14,217 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:14,248 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:14,249 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:15,697 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:17,359 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:17,407 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:17,410 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:17,705 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:19,715 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:20,507 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:20,558 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:20,560 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:21,723 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:23,649 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:23,694 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:23,695 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:23,730 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:25,741 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:26,789 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:26,820 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:26,820 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:27,750 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:29,757 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:29,917 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:29,982 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:29,984 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:31,767 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:33,025 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:33,059 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:33,059 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:33,775 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:35,785 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:36,152 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:36,184 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:36,185 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:37,792 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:39,271 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:39,303 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:39,306 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:39,808 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:41,817 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:42,406 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:42,441 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:42,442 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:43,824 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:45,516 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:45,546 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:45,546 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:45,830 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:47,836 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:48,637 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:48,680 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:48,683 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:49,847 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:51,761 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:51,795 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:51,796 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:51,856 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:53,865 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:54,874 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:54,908 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:54,910 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:55,873 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:57,882 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:32:58,017 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:32:58,060 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:32:58,061 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:32:59,891 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:01,136 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:01,174 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:01,175 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:01,898 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:03,906 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:04,252 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:04,284 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:04,285 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:05,917 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:33:05,917 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:33:05,940 - root - INFO - Updated order 20190118: remaining_count = 19
+2024-10-02 14:33:07,374 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:07,417 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:07,420 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:07,947 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:09,956 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:10,509 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:10,541 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:10,541 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:11,967 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:13,632 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:13,666 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:13,667 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:13,977 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:33:13,978 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:33:14,005 - root - INFO - Updated order 20190118: remaining_count = 18
+2024-10-02 14:33:16,016 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:33:16,016 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:33:16,037 - root - INFO - Updated order 20190118: remaining_count = 17
+2024-10-02 14:33:16,749 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:16,782 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:16,784 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:18,046 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:33:18,047 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:33:18,067 - root - INFO - Updated order 20190118: remaining_count = 16
+2024-10-02 14:33:19,872 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:19,907 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:19,908 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:20,074 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:22,083 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:23,015 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:23,083 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:23,084 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:24,090 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:26,093 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:26,123 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:26,165 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:26,167 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:28,100 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:29,251 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:29,279 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:29,280 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:30,109 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:33:30,109 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:33:30,130 - root - INFO - Updated order 20190118: remaining_count = 15
+2024-10-02 14:33:32,140 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:32,358 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:32,393 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:32,397 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:34,151 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:35,472 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:35,527 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:35,531 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:36,160 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:38,166 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:38,607 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:38,637 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:38,638 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:40,172 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:41,710 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:41,747 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:41,749 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:42,179 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:44,190 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:44,826 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:44,856 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:44,858 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:46,200 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:47,928 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:47,957 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:47,959 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:48,209 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:50,218 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:51,040 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:51,082 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:51,086 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:52,227 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:33:54,201 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:54,232 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:54,233 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:54,240 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:33:54,240 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:33:54,266 - root - INFO - Updated order 20190118: remaining_count = 14
+2024-10-02 14:33:56,273 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:33:56,274 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:33:56,301 - root - INFO - Updated order 20190118: remaining_count = 13
+2024-10-02 14:33:57,307 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:33:57,342 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:33:57,344 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:33:58,313 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:33:58,314 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:33:58,339 - root - INFO - Updated order 20190118: remaining_count = 12
+2024-10-02 14:34:00,349 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:00,350 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:00,370 - root - INFO - Updated order 20190118: remaining_count = 11
+2024-10-02 14:34:00,439 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:34:00,486 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:00,487 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:02,377 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:02,378 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:02,401 - root - INFO - Updated order 20190118: remaining_count = 10
+2024-10-02 14:34:03,570 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:34:03,607 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:03,611 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:04,411 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:04,412 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:04,435 - root - INFO - Updated order 20190118: remaining_count = 9
+2024-10-02 14:34:06,442 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:06,442 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:06,461 - root - INFO - Updated order 20190118: remaining_count = 8
+2024-10-02 14:34:06,691 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:34:06,726 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:06,727 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:08,480 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:08,480 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:08,502 - root - INFO - Updated order 20190118: remaining_count = 7
+2024-10-02 14:34:09,820 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:34:09,852 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:09,855 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:10,511 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:10,512 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:10,535 - root - INFO - Updated order 20190118: remaining_count = 6
+2024-10-02 14:34:12,543 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:12,544 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:12,566 - root - INFO - Updated order 20190118: remaining_count = 5
+2024-10-02 14:34:12,945 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:34:12,974 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:12,975 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:14,573 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:14,574 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:14,594 - root - INFO - Updated order 20190118: remaining_count = 4
+2024-10-02 14:34:16,057 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:34:16,088 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:16,088 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:16,605 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:16,605 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:16,625 - root - INFO - Updated order 20190118: remaining_count = 3
+2024-10-02 14:34:18,634 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:18,634 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:18,655 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:34:19,174 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:34:19,207 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:19,208 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:20,664 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:20,665 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:20,688 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:34:22,295 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:34:22,329 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:22,330 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:22,699 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:22,700 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:22,719 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:34:24,729 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:24,729 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:24,749 - root - INFO - Updated order 20190118: remaining_count = 9
+2024-10-02 14:34:25,430 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:25,462 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:25,464 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:26,756 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:26,756 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:26,781 - root - INFO - Updated order 20190118: remaining_count = 8
+2024-10-02 14:34:28,555 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:28,589 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:28,590 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:28,788 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:28,789 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:28,814 - root - INFO - Updated order 20190118: remaining_count = 7
+2024-10-02 14:34:30,820 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:30,821 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:30,846 - root - INFO - Updated order 20190118: remaining_count = 6
+2024-10-02 14:34:31,680 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:31,753 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:31,755 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:32,852 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:32,853 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:32,874 - root - INFO - Updated order 20190118: remaining_count = 5
+2024-10-02 14:34:34,816 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:34,850 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:34,852 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:34,902 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:34:34,904 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:34:34,939 - root - INFO - Updated order 20190118: remaining_count = 4
+2024-10-02 14:34:36,949 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:37,950 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:38,016 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:38,016 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:38,959 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:40,968 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:41,052 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:41,089 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:41,093 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:42,978 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:44,181 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:44,209 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:44,210 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:44,990 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:47,001 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:47,313 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:47,356 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:47,358 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:49,012 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:50,437 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:50,475 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:50,476 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:51,018 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:53,026 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:53,558 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:53,588 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:53,588 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:55,036 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:56,675 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:56,713 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:56,714 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:34:57,044 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:59,053 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:34:59,793 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:34:59,822 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:34:59,822 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:01,062 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:02,909 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:02,947 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:02,949 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:03,068 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:05,079 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:06,315 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:06,353 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:06,355 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:07,086 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:09,095 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:10,307 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:10,337 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:10,338 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:11,101 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:13,112 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:14,307 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:14,332 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:14,332 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:15,123 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:17,136 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:18,315 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:18,341 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:18,342 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:19,145 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:21,152 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:22,316 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:22,348 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:22,350 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:23,163 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:25,174 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:26,322 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:26,352 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:26,353 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:27,182 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:29,194 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:30,309 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:30,337 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:30,338 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:31,204 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:33,216 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:33,430 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:33,472 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:33,472 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:35,226 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:36,569 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:36,611 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:36,612 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:37,237 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:39,246 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:39,698 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:39,729 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:39,729 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:41,254 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:42,820 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:42,874 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:42,876 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:43,265 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:45,277 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:45,924 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:45,956 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:45,959 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:47,287 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:49,051 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:49,100 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:49,103 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:49,297 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:51,308 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:52,208 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:52,246 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:52,249 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:53,318 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:55,331 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:55,375 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:55,418 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:55,421 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:57,340 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:35:58,502 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:35:58,537 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:35:58,539 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:35:59,347 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:01,354 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:01,621 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:01,658 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:01,659 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:03,364 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:04,758 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:04,813 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:04,818 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:05,373 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:07,385 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:07,906 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:07,949 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:07,952 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:09,395 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:11,036 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:11,077 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:11,080 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:11,402 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:13,420 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:14,165 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:14,198 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:14,198 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:15,426 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:17,292 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:17,364 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:17,365 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:17,437 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:19,445 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:20,405 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:20,436 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:20,436 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:21,453 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:23,465 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:23,531 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:23,574 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:23,575 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:25,473 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:26,658 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:26,704 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:26,704 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:27,480 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:29,492 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:29,784 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:29,815 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:29,816 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:31,500 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:32,926 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:32,997 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:32,999 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:33,512 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:35,520 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:36,051 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:36,092 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:36,092 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:37,527 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:39,188 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:39,373 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:39,375 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:39,541 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:41,556 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:42,481 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:42,560 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:42,560 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:43,568 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:45,579 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:45,609 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:45,675 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:45,677 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:47,586 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:48,720 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:48,762 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:48,763 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:49,601 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:51,608 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:51,834 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:51,861 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:51,861 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:53,620 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:54,942 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:54,973 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:55,005 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:55,627 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:57,637 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:36:58,063 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:36:58,094 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:36:58,094 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:36:59,645 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:37:01,189 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:01,249 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:01,251 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:01,655 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:37:03,666 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:37:04,344 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:04,428 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:04,429 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:05,673 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:37:07,519 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:07,560 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:07,563 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:07,682 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:07,682 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:07,715 - root - INFO - Updated order 20190118: remaining_count = 3
+2024-10-02 14:37:09,722 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:09,723 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:09,748 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:37:10,668 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:10,729 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:10,734 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:11,760 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:11,760 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:11,788 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:37:13,783 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:13,796 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:13,797 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:13,834 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:13,837 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:37:13,836 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:15,845 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:15,846 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:15,883 - root - INFO - Updated order 20190118: remaining_count = 9
+2024-10-02 14:37:16,926 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:16,981 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:16,981 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:17,892 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:17,892 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:17,927 - root - INFO - Updated order 20190118: remaining_count = 8
+2024-10-02 14:37:19,938 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:19,939 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:19,962 - root - INFO - Updated order 20190118: remaining_count = 7
+2024-10-02 14:37:20,044 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:20,111 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:20,116 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:21,971 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:21,971 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:22,004 - root - INFO - Updated order 20190118: remaining_count = 6
+2024-10-02 14:37:23,219 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:23,271 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:23,274 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:24,012 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:24,012 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:24,044 - root - INFO - Updated order 20190118: remaining_count = 5
+2024-10-02 14:37:26,050 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:26,051 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:26,074 - root - INFO - Updated order 20190118: remaining_count = 4
+2024-10-02 14:37:26,393 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:26,446 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:26,448 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:28,082 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:28,083 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:28,108 - root - INFO - Updated order 20190118: remaining_count = 3
+2024-10-02 14:37:29,568 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:29,654 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:29,658 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:30,119 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:30,119 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:30,152 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:37:32,160 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:32,161 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:32,183 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:37:32,700 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:32,736 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:32,738 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:34,190 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:34,191 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:34,217 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:37:35,832 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:35,888 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:35,893 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:36,226 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:36,228 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:36,265 - root - INFO - Updated order 20190118: remaining_count = 9
+2024-10-02 14:37:38,277 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:38,277 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:38,312 - root - INFO - Updated order 20190118: remaining_count = 8
+2024-10-02 14:37:38,996 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:39,060 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:39,063 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:40,325 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:40,326 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:40,356 - root - INFO - Updated order 20190118: remaining_count = 7
+2024-10-02 14:37:42,168 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:42,238 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:42,242 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:42,365 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:42,366 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:42,402 - root - INFO - Updated order 20190118: remaining_count = 6
+2024-10-02 14:37:44,414 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:44,414 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:44,440 - root - INFO - Updated order 20190118: remaining_count = 5
+2024-10-02 14:37:45,362 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:45,475 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:45,477 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:46,453 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:46,454 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:46,492 - root - INFO - Updated order 20190118: remaining_count = 4
+2024-10-02 14:37:48,503 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:48,504 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:48,536 - root - INFO - Updated order 20190118: remaining_count = 3
+2024-10-02 14:37:48,585 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:48,666 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:48,666 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:50,545 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:50,546 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:50,579 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:37:51,715 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:51,746 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:51,746 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:52,588 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:52,588 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:52,608 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:37:54,616 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:54,617 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:54,639 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:37:54,835 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:54,863 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:54,865 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:56,649 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:56,649 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:56,673 - root - INFO - Updated order 20190118: remaining_count = 3
+2024-10-02 14:37:57,955 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:37:58,004 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:37:58,006 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:37:58,680 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:37:58,681 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:37:58,712 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:38:00,719 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:38:00,719 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:38:00,740 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:38:01,049 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:01,097 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:01,099 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:02,747 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:38:02,748 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:38:02,776 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:38:04,136 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:04,167 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:04,169 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:04,785 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:38:04,785 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:38:04,805 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:38:06,814 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:38:06,815 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:38:06,834 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:38:07,247 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:07,276 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:07,276 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:08,844 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:38:08,844 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:38:08,872 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:38:10,360 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:10,395 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:10,396 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:10,878 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:38:10,878 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:38:10,898 - root - INFO - Updated order 20190118: remaining_count = 2
+2024-10-02 14:38:12,908 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:38:12,909 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:38:12,937 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:38:13,476 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:13,509 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:13,509 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:14,945 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:38:14,945 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:38:14,965 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:38:16,590 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:16,623 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:16,624 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:16,975 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:18,986 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:19,712 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:19,744 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:19,747 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:20,995 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:22,841 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:22,869 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:22,870 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:23,004 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:25,013 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:25,962 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:25,998 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:26,000 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:27,019 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:29,026 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:29,105 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:29,138 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:29,141 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:31,037 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:32,227 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:32,257 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:32,258 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:33,046 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:35,056 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:35,346 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:35,376 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:35,379 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:37,065 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:38,464 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:38:38,499 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:38,499 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:39,074 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:41,081 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:41,579 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:38:41,634 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:41,637 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:43,089 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:44,729 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:38:44,765 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:44,767 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:45,098 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:47,107 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:47,840 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:38:47,869 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:47,870 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:49,118 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:50,960 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:38:50,990 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:50,992 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:51,128 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:53,137 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:54,082 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:38:54,211 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:54,215 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:55,147 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:57,157 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:38:57,257 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:38:57,283 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:38:57,285 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:38:59,165 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:00,363 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:00,398 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:00,399 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:01,174 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:03,180 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:03,480 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:03,521 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:03,523 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:05,186 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:06,618 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:06,656 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:06,658 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:07,192 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:09,199 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:09,729 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:09,763 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:09,765 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:11,207 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:12,850 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:12,877 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:12,878 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:13,215 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:15,222 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:15,971 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:16,002 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:16,004 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:17,229 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:19,081 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:19,111 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:19,111 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:19,241 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:21,247 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:22,194 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:22,222 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:22,224 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:23,256 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:25,268 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:25,313 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:25,358 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:25,360 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:27,275 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:28,440 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:28,507 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:28,510 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:29,287 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:31,299 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:39:31,300 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:39:31,327 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:39:31,565 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1609
+2024-10-02 14:39:31,603 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:31,606 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:33,336 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:39:33,337 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:39:33,363 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:39:34,696 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:39:34,774 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:34,775 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:35,374 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:39:35,375 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:39:35,407 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:39:37,415 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:39:37,416 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:39:37,446 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:39:37,864 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:39:37,927 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:37,928 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:39,454 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:39:39,454 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:39:39,482 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:39:40,993 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:39:41,036 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:41,038 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:41,490 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:39:41,490 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:39:41,510 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:39:43,518 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:39:43,519 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:39:43,539 - root - INFO - Updated order 20190118: remaining_count = 1
+2024-10-02 14:39:44,137 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:39:44,181 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:44,184 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:45,547 - root - INFO - Received Modbus data: [1]
+2024-10-02 14:39:45,548 - root - INFO - Modbus data is 1, decrementing remaining_count...
+2024-10-02 14:39:45,569 - root - INFO - Updated order 20190118: remaining_count = 0
+2024-10-02 14:39:47,306 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:39:47,358 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:47,363 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:47,576 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:49,586 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:50,455 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:39:50,482 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:50,485 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:51,597 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:53,554 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:39:53,600 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:53,609 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:53,612 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:55,619 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:56,677 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:39:56,706 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:56,709 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:39:57,629 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:59,637 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:39:59,793 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:39:59,823 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:39:59,825 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:01,644 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:02,903 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:02,938 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:02,939 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:03,655 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:05,666 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:06,032 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:06,063 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:06,063 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:07,675 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:09,138 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:09,166 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:09,168 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:09,682 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:11,692 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:12,254 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:12,283 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:12,284 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:13,700 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:15,371 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:15,401 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:15,401 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:15,710 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:17,716 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:18,490 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:18,518 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:18,518 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:19,725 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:21,605 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:21,632 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:21,633 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:21,731 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:23,738 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:24,711 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:24,743 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:24,746 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:25,745 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:27,754 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:27,830 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:27,864 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:27,866 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:29,764 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:30,960 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:30,990 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:30,991 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:31,775 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:33,782 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:34,067 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:34,094 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:34,096 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:35,790 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:37,176 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:37,211 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:37,212 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:37,799 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:39,810 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:40,294 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:40,330 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:40,333 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:41,817 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:43,408 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:43,434 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:43,435 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:43,824 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:45,834 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:46,517 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:46,553 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:46,555 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:47,841 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:49,637 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:49,667 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:49,667 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:49,848 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:51,860 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:52,750 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:52,775 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:52,777 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:53,871 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:55,862 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:55,878 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:55,904 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:55,905 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:57,884 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:40:58,987 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:40:59,012 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:40:59,012 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:40:59,904 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:01,914 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:02,091 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:02,121 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:02,121 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:03,923 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:05,196 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:05,224 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:05,225 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:05,934 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:07,946 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:08,314 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:08,345 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:08,345 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:09,956 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:11,441 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:11,500 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:11,500 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:11,965 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:13,973 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:14,588 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:14,618 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:14,620 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:15,983 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:17,707 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:17,741 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:17,744 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:17,994 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:20,002 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:20,825 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:20,858 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:20,860 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:22,014 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:23,946 - django.request - WARNING - Not Found: /Ramen/order_statu
+2024-10-02 14:41:23,948 - django.server - WARNING - "GET /Ramen/order_statu HTTP/1.1" 404 4355
+2024-10-02 14:41:23,971 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:24,018 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:24,019 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:24,021 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:26,027 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:27,070 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:27,106 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:27,109 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:28,035 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:30,042 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:30,207 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:30,271 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:30,271 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:32,050 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:32,721 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 14:41:33,370 - root - INFO - Starting Modbus communication thread...
+2024-10-02 14:41:33,372 - root - INFO - Modbus thread started successfully.
+2024-10-02 14:41:33,383 - root - INFO - Received Modbus data: [0]
+2024-10-02 14:41:33,423 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-02 14:41:34,468 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:34,521 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:34,521 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:37,625 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 14:41:37,705 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 14:41:37,705 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 14:41:38,172 - django.request - WARNING - Not Found: /Ramen/order_stat
+2024-10-02 14:41:38,173 - django.server - WARNING - "GET /Ramen/order_stat HTTP/1.1" 404 4352
+2024-10-02 15:01:47,593 - django.server - INFO - "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-02 16:50:54,491 - django.request - WARNING - Not Found: /Ramen/order_stat„Ñ¥
+2024-10-02 16:50:54,494 - django.server - WARNING - "GET /Ramen/order_stat%E3%84%B4 HTTP/1.1" 404 4367
+2024-10-02 16:50:57,500 - django.request - WARNING - Not Found: /Ramen/order_stats
+2024-10-02 16:50:57,502 - django.server - WARNING - "GET /Ramen/order_stats HTTP/1.1" 404 4355
+2024-10-02 16:52:27,496 - django.server - INFO - "GET /Ramen/order_status HTTP/1.1" 301 0
+2024-10-02 16:52:27,531 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:27,582 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:27,583 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:30,658 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:30,691 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:30,693 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:33,804 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:33,848 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:33,851 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:36,950 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:36,990 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:36,991 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:40,070 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:40,109 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:40,109 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:43,227 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:43,275 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:43,278 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:46,365 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:46,393 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:46,393 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:49,467 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:49,501 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:49,501 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:52,599 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:52,638 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:52,640 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:55,723 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:55,777 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:55,790 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:58,861 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:58,909 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:58,912 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:02,017 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:02,084 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:02,086 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:05,124 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:05,158 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:05,161 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:08,249 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:08,293 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:08,296 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:11,409 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:11,521 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:11,523 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:14,587 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:14,629 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:14,633 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:17,722 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:17,766 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:17,768 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:20,875 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:20,926 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:20,928 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:23,999 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:24,059 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:24,059 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:27,090 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:27,116 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:27,116 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:30,189 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:30,216 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:30,216 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:33,337 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:33,377 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:33,379 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:36,460 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:36,485 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:36,486 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:39,577 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:39,614 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:39,617 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:42,726 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:42,763 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:42,764 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:45,853 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:45,881 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:45,882 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:48,960 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:48,990 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:48,992 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:52,074 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:52,107 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:52,109 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:55,197 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:55,222 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:55,222 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:58,307 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:58,332 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:58,333 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:01,433 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:01,500 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:01,501 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:04,541 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:04,738 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:04,741 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:07,784 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:07,855 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:07,855 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:10,918 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:10,950 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:10,952 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:14,031 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:14,063 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:14,065 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:17,173 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:17,402 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:17,402 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:20,486 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:20,522 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:20,524 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:23,623 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:23,670 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:23,670 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:26,755 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:26,790 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:26,791 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:29,882 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:29,908 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:29,909 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:33,040 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:33,546 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:33,547 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:36,587 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:36,617 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:36,618 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:39,707 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:39,755 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:39,757 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:42,801 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:42,834 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:42,836 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:45,930 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:46,008 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:46,009 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:49,059 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:49,264 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:49,265 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:52,357 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:52,430 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:52,433 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:55,482 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:55,513 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:55,513 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:58,592 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:58,617 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:58,618 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:01,687 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:01,715 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:01,715 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:04,793 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:04,822 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:04,823 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:07,911 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:07,938 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:07,940 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:11,014 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:11,039 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:11,040 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:14,135 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:14,170 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:14,172 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:17,251 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:17,277 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:17,279 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:20,360 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:20,383 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:20,384 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:23,463 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:23,493 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:23,494 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:26,579 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:26,607 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:26,607 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:29,683 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:29,714 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:29,716 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:32,792 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:32,824 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:32,827 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:35,945 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:35,983 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:35,985 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:39,080 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:39,116 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:39,119 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:42,222 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:42,260 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:42,264 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:45,370 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:45,407 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:45,407 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:48,489 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:48,568 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:48,569 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:51,621 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:51,651 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:51,653 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:54,765 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:54,794 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:54,795 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:57,897 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:57,930 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:57,931 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:01,021 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:01,056 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:01,056 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:04,149 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:04,192 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:04,196 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:07,282 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:07,309 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:07,312 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:10,410 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:10,471 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:10,472 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:13,599 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:13,841 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:13,843 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:16,926 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:16,986 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:16,987 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:20,033 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:20,075 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:20,076 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:23,181 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:23,241 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:23,243 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:26,286 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:26,343 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:26,344 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:29,406 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:29,467 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:29,467 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:32,579 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:32,649 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:32,649 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:35,693 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:35,726 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:35,727 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:38,968 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:39,212 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:39,212 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:42,265 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:42,301 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:42,304 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:45,370 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:45,395 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:45,398 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:57:00,337 - django.utils.autoreload - INFO - /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 16:57:00,968 - root - INFO - Starting Modbus communication thread...
+2024-10-02 16:57:00,969 - root - INFO - Modbus thread started successfully.
+2024-10-02 16:57:00,976 - root - INFO - Received Modbus data: [0]
+2024-10-02 16:57:01,002 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-07 08:17:31,257 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:17:31,259 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:17:31,279 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:17:33,108 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:17:33,110 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:17:33,118 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:17:33,174 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-07 08:31:28,955 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:31:28,957 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:31:28,982 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:31:29,536 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:31:29,537 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:31:29,547 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:31:29,566 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-07 08:31:34,566 - django.request - WARNING - Not Found: /
+2024-10-07 08:31:34,568 - django.server - WARNING - "GET / HTTP/1.1" 404 2517
+2024-10-07 08:31:34,777 - django.request - WARNING - Not Found: /favicon.ico
+2024-10-07 08:31:34,778 - django.server - WARNING - "GET /favicon.ico HTTP/1.1" 404 2568
+2024-10-07 08:31:49,876 - django.server - INFO - "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-07 08:31:49,980 - django.server - INFO - "GET /static/css/style%2002.css HTTP/1.1" 200 5018
+2024-10-07 08:31:49,983 - django.server - INFO - "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-10-07 08:31:49,987 - django.server - INFO - "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-10-07 08:31:49,990 - django.server - INFO - "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-10-07 08:31:50,040 - django.server - INFO - "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 08:31:51,470 - django.server - INFO - "GET /Ramen/index04/ HTTP/1.1" 200 2201
+2024-10-07 08:31:51,524 - django.server - INFO - "GET /static/css/style%2004.css HTTP/1.1" 200 7631
+2024-10-07 08:31:51,527 - django.server - INFO - "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-10-07 08:31:51,528 - django.server - INFO - "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-10-07 08:31:51,531 - django.server - INFO - "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-10-07 08:31:51,532 - django.server - INFO - "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-10-07 08:31:51,534 - django.server - INFO - "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-10-07 08:31:55,434 - django.server - INFO - "GET /Ramen/db_index00/?count=2 HTTP/1.1" 200 1074
+2024-10-07 08:31:55,478 - django.server - INFO - "GET /static/css/db_style00.css HTTP/1.1" 200 2257
+2024-10-07 08:32:01,652 - my_custom_logger - INFO - ªÁπ¯: 20190118, ¿Ã∏ß: ¿Ã¿Œ¿Á, ¡÷πÆºˆ∑Æ: 2
+2024-10-07 08:32:01,662 - django.server - INFO - "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-10-07 08:32:01,884 - root - INFO - PLCø° ¡÷πÆ ºˆ∑Æ 2 ¿¸º€ º∫∞¯ - ªÁπ¯: 20190118
+2024-10-07 08:32:01,887 - django.server - INFO - "GET /Ramen/index05/2/20190118/ HTTP/1.1" 200 1544
+2024-10-07 08:32:01,932 - django.server - INFO - "GET /static/css/style%2005.css HTTP/1.1" 200 4750
+2024-10-07 08:32:01,943 - django.server - INFO - "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-10-07 08:32:01,948 - django.server - INFO - "GET /static/js/display_count.js HTTP/1.1" 200 627
+2024-10-07 08:32:07,031 - django.server - INFO - "GET /Ramen/?count=2 HTTP/1.1" 200 1684
+2024-10-07 08:36:55,469 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:36:55,471 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:36:55,481 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:36:55,945 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:36:55,947 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:36:55,970 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:36:55,974 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-07 08:36:58,377 - django.server - INFO - "GET /Ramen HTTP/1.1" 301 0
+2024-10-07 08:36:58,399 - django.server - INFO - "GET /Ramen/ HTTP/1.1" 200 1684
+2024-10-07 08:37:08,139 - django.server - INFO - "GET /Ramen/order_status HTTP/1.1" 301 0
+2024-10-07 08:37:08,150 - django.server - INFO - "GET /Ramen/order_status/ HTTP/1.1" 200 1571
+2024-10-07 08:37:08,645 - django.server - INFO - "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-07 08:37:08,651 - django.server - INFO - "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-07 08:37:18,791 - django.server - INFO - "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-07 08:37:20,113 - django.server - INFO - "GET /Ramen/index04/ HTTP/1.1" 200 2201
+2024-10-07 08:37:21,688 - django.server - INFO - "GET /Ramen/db_index00/?count=1 HTTP/1.1" 200 1074
+2024-10-07 08:37:26,576 - my_custom_logger - INFO - ªÁπ¯: 20190118, ¿Ã∏ß: ¿Ã¿Œ¿Á, ¡÷πÆºˆ∑Æ: 1
+2024-10-07 08:37:26,587 - django.server - INFO - "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-10-07 08:37:26,807 - root - INFO - PLCø° ¡÷πÆ ºˆ∑Æ 1 ¿¸º€ º∫∞¯ - ªÁπ¯: 20190118
+2024-10-07 08:37:26,810 - django.server - INFO - "GET /Ramen/index05/1/20190118/ HTTP/1.1" 200 1544
+2024-10-07 08:37:31,853 - django.server - INFO - "GET /Ramen/?count=1 HTTP/1.1" 200 1684
+2024-10-07 08:38:42,494 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:38:42,496 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:38:42,515 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:38:49,434 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:38:49,436 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:38:49,465 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:38:59,011 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:38:59,013 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:38:59,019 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:38:59,501 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:38:59,502 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:38:59,521 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:38:59,526 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-07 08:39:30,036 - django.server - INFO - "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-07 08:39:31,242 - django.server - INFO - "GET /Ramen/index04/ HTTP/1.1" 200 2201
+2024-10-07 08:39:32,599 - django.server - INFO - "GET /Ramen/db_index00/?count=1 HTTP/1.1" 200 1074
+2024-10-07 08:39:37,353 - my_custom_logger - INFO - ªÁπ¯: 20190118, ¿Ã∏ß: ¿Ã¿Œ¿Á, ¡÷πÆºˆ∑Æ: 1
+2024-10-07 08:39:37,362 - django.server - INFO - "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-10-07 08:39:37,582 - root - INFO - PLCø° ¡÷πÆ ºˆ∑Æ 1 ¿¸º€ º∫∞¯ - ªÁπ¯: 20190118
+2024-10-07 08:39:37,584 - django.server - INFO - "GET /Ramen/index05/1/20190118/ HTTP/1.1" 200 1544
+2024-10-07 08:39:42,620 - django.server - INFO - "GET /Ramen/?count=1 HTTP/1.1" 200 1684
+2024-10-07 08:45:23,756 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:45:23,758 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:59:54,780 - root - INFO - Starting Modbus communication thread...
+2024-10-07 08:59:54,782 - root - INFO - Modbus thread started successfully.
+2024-10-07 08:59:54,794 - root - INFO - Received Modbus data: [27646]
+2024-10-07 08:59:54,828 - django.utils.autoreload - INFO - Watching for file changes with StatReloader
+2024-10-07 09:00:02,787 - django.server - INFO - "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-07 09:00:03,576 - django.server - INFO - "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-10-07 09:00:03,668 - django.server - INFO - "GET /static/css/style%2002.css HTTP/1.1" 200 5018
+2024-10-07 09:00:03,979 - django.server - INFO - "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 09:00:04,271 - django.server - INFO - "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-10-07 09:00:04,294 - django.server - INFO - "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-10-07 09:00:04,537 - django.server - INFO - "GET /Ramen/index04/ HTTP/1.1" 200 2201
+2024-10-07 09:00:04,689 - django.server - INFO - "GET /static/css/style%2004.css HTTP/1.1" 200 7631
+2024-10-07 09:00:04,692 - django.server - INFO - "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-10-07 09:00:04,701 - django.server - INFO - "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-10-07 09:00:04,705 - django.server - INFO - "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-10-07 09:00:04,709 - django.server - INFO - "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-10-07 09:00:04,725 - django.server - INFO - "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-10-07 09:00:04,728 - django.server - INFO - "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-10-07 09:00:04,734 - django.server - INFO - "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 09:00:06,479 - django.server - INFO - "GET /Ramen/db_index00/?count=1 HTTP/1.1" 200 1074
+2024-10-07 09:00:06,550 - django.server - INFO - "GET /static/css/db_style00.css HTTP/1.1" 200 2257
+2024-10-07 09:00:06,665 - django.server - INFO - "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 09:00:11,954 - my_custom_logger - INFO - ªÁπ¯: 20190118, ¿Ã∏ß: ¿Ã¿Œ¿Á, ¡÷πÆºˆ∑Æ: 1
+2024-10-07 09:00:11,963 - django.server - INFO - "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-10-07 09:00:12,180 - root - INFO - PLCø° ¡÷πÆ ºˆ∑Æ 1 ¿¸º€ º∫∞¯ - ªÁπ¯: 20190118
+2024-10-07 09:00:12,184 - django.server - INFO - "GET /Ramen/index05/1/20190118/ HTTP/1.1" 200 1544
+2024-10-07 09:00:12,225 - django.server - INFO - "GET /static/css/style%2005.css HTTP/1.1" 200 4750
+2024-10-07 09:00:12,237 - django.server - INFO - "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-10-07 09:00:12,245 - django.server - INFO - "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-10-07 09:00:12,247 - django.server - INFO - "GET /static/js/display_count.js HTTP/1.1" 200 627
+2024-10-07 09:00:12,264 - django.server - INFO - "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 09:00:17,513 - django.server - INFO - "GET /Ramen/?count=1 HTTP/1.1" 200 1684
+2024-10-07 09:00:17,568 - django.server - INFO - "GET /static/css/style.css HTTP/1.1" 200 5113
+2024-10-07 09:00:17,571 - django.server - INFO - "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-10-07 09:00:17,577 - django.server - INFO - "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-10-07 09:00:17,578 - django.server - INFO - "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-10-07 09:00:17,641 - django.server - INFO - "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309

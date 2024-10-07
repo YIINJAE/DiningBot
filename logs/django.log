@@ -1,80 +1,346 @@
-2024-09-09 07:54:09,845 django.utils.autoreload INFO Watching for file changes with StatReloader
-2024-09-09 07:54:24,330 django.server INFO "GET / HTTP/1.1" 200 10773
-2024-09-09 08:13:30,836 django.utils.autoreload INFO H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\Project\config\urls.py changed, reloading.
-2024-09-09 08:18:24,445 django.utils.autoreload INFO Watching for file changes with StatReloader
-2024-09-09 08:19:33,045 django.utils.autoreload INFO H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\Project\config\urls.py changed, reloading.
-2024-09-09 08:19:33,579 django.utils.autoreload INFO Watching for file changes with StatReloader
-2024-09-09 08:19:35,484 django.server INFO "GET /Ramen/ HTTP/1.1" 200 216
-2024-09-09 08:19:46,535 django.server INFO "GET /Ramen/ HTTP/1.1" 200 240
-2024-09-09 17:24:53,688 django.utils.autoreload INFO Watching for file changes with StatReloader
-2024-09-09 17:24:56,379 django.request WARNING Not Found: /
-2024-09-09 17:24:56,380 django.server WARNING "GET / HTTP/1.1" 404 2165
-2024-09-09 17:24:56,479 django.request WARNING Not Found: /favicon.ico
-2024-09-09 17:24:56,480 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2216
-2024-09-09 17:24:59,823 django.request ERROR Internal Server Error: /Ramen/
-Traceback (most recent call last):
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\Project\Ramen\views\index_views.py", line 10, in index
-    return render(request, './ramen/new_index.html')
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\shortcuts.py", line 24, in render
-    content = loader.render_to_string(template_name, context, request, using=using)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\loader.py", line 62, in render_to_string
-    return template.render(context, request)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\backends\django.py", line 62, in render
-    return self.template.render(context)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 175, in render
-    return self._render(context)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 167, in _render
-    return self.nodelist.render(context)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 1000, in render
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
-    return SafeString("".join([node.render_annotated(context) for node in self]))
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\base.py", line 958, in render_annotated
-    return self.render(context)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\template\defaulttags.py", line 472, in render
-    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\urls\base.py", line 88, in reverse
-    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
-  File "H:\01.WORK\05.developement\2024\04.Ramen\03.Deployment\venvs\diningbot\lib\site-packages\django\urls\resolvers.py", line 802, in _reverse_with_prefix
-    raise NoReverseMatch(msg)
-django.urls.exceptions.NoReverseMatch: Reverse for 'index02' not found. 'index02' is not a valid view function or pattern name.
-2024-09-09 17:24:59,830 django.server ERROR "GET /Ramen/ HTTP/1.1" 500 122152
-2024-09-09 17:27:23,123 django.utils.autoreload INFO Watching for file changes with StatReloader
-2024-09-09 17:27:27,279 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
-2024-09-09 17:27:27,355 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
-2024-09-09 17:27:27,357 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
-2024-09-09 17:27:27,357 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
-2024-09-09 17:27:27,607 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 4848
-2024-09-09 17:27:38,670 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
-2024-09-09 17:27:38,707 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
-2024-09-09 17:27:38,708 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
-2024-09-09 17:27:38,710 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
-2024-09-09 17:27:40,503 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
-2024-09-09 17:27:40,521 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
-2024-09-09 17:27:40,523 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
-2024-09-09 17:27:40,523 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
-2024-09-09 17:27:40,999 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
-2024-09-09 17:27:41,018 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
-2024-09-09 17:27:41,019 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
-2024-09-09 17:27:41,020 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
-2024-09-09 17:27:44,377 django.request WARNING Not Found: /Rame
-2024-09-09 17:27:44,378 django.server WARNING "GET /Rame HTTP/1.1" 404 2195
-2024-09-09 17:27:48,549 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
-2024-09-09 17:27:48,603 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 0
-2024-09-09 17:27:48,604 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
-2024-09-09 17:27:48,606 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
-2024-09-09 17:27:48,607 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
-2024-09-09 17:28:20,891 django.request WARNING Not Found: /
-2024-09-09 17:28:20,892 django.server WARNING "GET / HTTP/1.1" 404 2165
-2024-09-09 17:28:21,302 django.request WARNING Not Found: /
-2024-09-09 17:28:21,302 django.server WARNING "GET / HTTP/1.1" 404 2165
-2024-09-09 17:28:25,545 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1569
-2024-09-09 17:28:25,567 django.server INFO "GET /static/css/style.css HTTP/1.1" 304 0
-2024-09-09 17:28:25,582 django.server WARNING "GET /static/img/kitchen-bg.jpg HTTP/1.1" 404 1813
-2024-09-09 17:28:25,584 django.server WARNING "GET /static/img/touth-black.png HTTP/1.1" 404 1816
-2024-09-09 17:28:25,584 django.server WARNING "GET /static/img/fork-white.png HTTP/1.1" 404 1813
-2024-09-09 17:28:45,323 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 230
+2024-10-02 15:01:47,593 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-02 16:50:54,491 django.request WARNING Not Found: /Ramen/order_stat„Ñ¥
+2024-10-02 16:50:54,494 django.server WARNING "GET /Ramen/order_stat%E3%84%B4 HTTP/1.1" 404 4367
+2024-10-02 16:50:57,500 django.request WARNING Not Found: /Ramen/order_stats
+2024-10-02 16:50:57,502 django.server WARNING "GET /Ramen/order_stats HTTP/1.1" 404 4355
+2024-10-02 16:52:27,496 django.server INFO "GET /Ramen/order_status HTTP/1.1" 301 0
+2024-10-02 16:52:27,531 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:27,582 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:27,583 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:30,658 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:30,691 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:30,693 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:33,804 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:33,848 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:33,851 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:36,950 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:36,990 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:36,991 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:40,070 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:40,109 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:40,109 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:43,227 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:43,275 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:43,278 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:46,365 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:46,393 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:46,393 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:49,467 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:49,501 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:49,501 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:52,599 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:52,638 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:52,640 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:55,723 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:55,777 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:55,790 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:52:58,861 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:52:58,909 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:52:58,912 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:02,017 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:02,084 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:02,086 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:05,124 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:05,158 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:05,161 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:08,249 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:08,293 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:08,296 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:11,409 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:11,521 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:11,523 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:14,587 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:14,629 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:14,633 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:17,722 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:17,766 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:17,768 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:20,875 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:20,926 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:20,928 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:23,999 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:24,059 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:24,059 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:27,090 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:27,116 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:27,116 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:30,189 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:30,216 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:30,216 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:33,337 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:33,377 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:33,379 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:36,460 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:36,485 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:36,486 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:39,577 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:39,614 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:39,617 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:42,726 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:42,763 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:42,764 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:45,853 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:45,881 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:45,882 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:48,960 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:48,990 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:48,992 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:52,074 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:52,107 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:52,109 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:55,197 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:55,222 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:53:55,222 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:58,307 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:53:58,332 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:53:58,333 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:01,433 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:01,500 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:01,501 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:04,541 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:04,738 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:04,741 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:07,784 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:07,855 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:07,855 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:10,918 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:10,950 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:10,952 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:14,031 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:14,063 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:14,065 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:17,173 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:17,402 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:17,402 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:20,486 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:20,522 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:20,524 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:23,623 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:23,670 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:23,670 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:26,755 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:26,790 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:26,791 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:29,882 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:29,908 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:29,909 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:33,040 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:33,546 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:33,547 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:36,587 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:36,617 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:36,618 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:39,707 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:39,755 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:39,757 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:42,801 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:42,834 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:42,836 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:45,930 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:46,008 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:46,009 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:49,059 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:49,264 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:49,265 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:52,357 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:52,430 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:52,433 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:55,482 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:55,513 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:55,513 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:54:58,592 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:54:58,617 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:54:58,618 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:01,687 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:01,715 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:01,715 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:04,793 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:04,822 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:04,823 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:07,911 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:07,938 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:07,940 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:11,014 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:11,039 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:11,040 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:14,135 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:14,170 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:14,172 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:17,251 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:17,277 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:17,279 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:20,360 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:20,383 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:20,384 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:23,463 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:23,493 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:23,494 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:26,579 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:26,607 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:26,607 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:29,683 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:29,714 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:29,716 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:32,792 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:32,824 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:32,827 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:35,945 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:35,983 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:35,985 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:39,080 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:39,116 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:39,119 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:42,222 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:42,260 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:42,264 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:45,370 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:45,407 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:45,407 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:48,489 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:48,568 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:48,569 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:51,621 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:51,651 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:51,653 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:54,765 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:54,794 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:54,795 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:55:57,897 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:55:57,930 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:55:57,931 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:01,021 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:01,056 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:01,056 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:04,149 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:04,192 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:04,196 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:07,282 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:07,309 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:07,312 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:10,410 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:10,471 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:10,472 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:13,599 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:13,841 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:13,843 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:16,926 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:16,986 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:16,987 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:20,033 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:20,075 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:20,076 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:23,181 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:23,241 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:23,243 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:26,286 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:26,343 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:26,344 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:29,406 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:29,467 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:29,467 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:32,579 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:32,649 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:32,649 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:35,693 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:35,726 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:35,727 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:38,968 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:39,212 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:39,212 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:42,265 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:42,301 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:42,304 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:56:45,370 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1563
+2024-10-02 16:56:45,395 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-02 16:56:45,398 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-02 16:57:00,337 django.utils.autoreload INFO /app/Ramen/modbus_task.py changed, reloading.
+2024-10-02 16:57:01,002 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-10-07 08:17:33,174 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-10-07 08:31:29,566 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-10-07 08:31:34,566 django.request WARNING Not Found: /
+2024-10-07 08:31:34,568 django.server WARNING "GET / HTTP/1.1" 404 2517
+2024-10-07 08:31:34,777 django.request WARNING Not Found: /favicon.ico
+2024-10-07 08:31:34,778 django.server WARNING "GET /favicon.ico HTTP/1.1" 404 2568
+2024-10-07 08:31:37,208 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1684
+2024-10-07 08:31:38,200 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-10-07 08:31:38,237 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 5113
+2024-10-07 08:31:38,412 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
+2024-10-07 08:31:38,609 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-10-07 08:31:38,720 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-10-07 08:31:49,876 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-07 08:31:49,980 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 5018
+2024-10-07 08:31:49,983 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-10-07 08:31:49,987 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-10-07 08:31:49,990 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-10-07 08:31:50,040 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 08:31:51,470 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2201
+2024-10-07 08:31:51,524 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 7631
+2024-10-07 08:31:51,527 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-10-07 08:31:51,528 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-10-07 08:31:51,531 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-10-07 08:31:51,532 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-10-07 08:31:51,534 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-10-07 08:31:55,434 django.server INFO "GET /Ramen/db_index00/?count=2 HTTP/1.1" 200 1074
+2024-10-07 08:31:55,478 django.server INFO "GET /static/css/db_style00.css HTTP/1.1" 200 2257
+2024-10-07 08:32:01,652 my_custom_logger INFO ªÁπ¯: 20190118, ¿Ã∏ß: ¿Ã¿Œ¿Á, ¡÷πÆºˆ∑Æ: 2
+2024-10-07 08:32:01,662 django.server INFO "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-10-07 08:32:01,887 django.server INFO "GET /Ramen/index05/2/20190118/ HTTP/1.1" 200 1544
+2024-10-07 08:32:01,932 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4750
+2024-10-07 08:32:01,943 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-10-07 08:32:01,948 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 627
+2024-10-07 08:32:07,031 django.server INFO "GET /Ramen/?count=2 HTTP/1.1" 200 1684
+2024-10-07 08:36:55,974 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-10-07 08:36:58,377 django.server INFO "GET /Ramen HTTP/1.1" 301 0
+2024-10-07 08:36:58,399 django.server INFO "GET /Ramen/ HTTP/1.1" 200 1684
+2024-10-07 08:37:08,139 django.server INFO "GET /Ramen/order_status HTTP/1.1" 301 0
+2024-10-07 08:37:08,150 django.server INFO "GET /Ramen/order_status/ HTTP/1.1" 200 1571
+2024-10-07 08:37:08,645 django.server INFO "GET /static/css/order_style.css HTTP/1.1" 200 889
+2024-10-07 08:37:08,651 django.server INFO "GET /static/js/auto_refresh.js HTTP/1.1" 200 1892
+2024-10-07 08:37:18,791 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-07 08:37:20,113 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2201
+2024-10-07 08:37:21,688 django.server INFO "GET /Ramen/db_index00/?count=1 HTTP/1.1" 200 1074
+2024-10-07 08:37:26,576 my_custom_logger INFO ªÁπ¯: 20190118, ¿Ã∏ß: ¿Ã¿Œ¿Á, ¡÷πÆºˆ∑Æ: 1
+2024-10-07 08:37:26,587 django.server INFO "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-10-07 08:37:26,810 django.server INFO "GET /Ramen/index05/1/20190118/ HTTP/1.1" 200 1544
+2024-10-07 08:37:31,853 django.server INFO "GET /Ramen/?count=1 HTTP/1.1" 200 1684
+2024-10-07 08:38:59,526 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-10-07 08:39:30,036 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-07 08:39:31,242 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2201
+2024-10-07 08:39:32,599 django.server INFO "GET /Ramen/db_index00/?count=1 HTTP/1.1" 200 1074
+2024-10-07 08:39:37,353 my_custom_logger INFO ªÁπ¯: 20190118, ¿Ã∏ß: ¿Ã¿Œ¿Á, ¡÷πÆºˆ∑Æ: 1
+2024-10-07 08:39:37,362 django.server INFO "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-10-07 08:39:37,584 django.server INFO "GET /Ramen/index05/1/20190118/ HTTP/1.1" 200 1544
+2024-10-07 08:39:42,620 django.server INFO "GET /Ramen/?count=1 HTTP/1.1" 200 1684
+2024-10-07 08:59:54,828 django.utils.autoreload INFO Watching for file changes with StatReloader
+2024-10-07 09:00:02,787 django.server INFO "GET /Ramen/index02/ HTTP/1.1" 200 2078
+2024-10-07 09:00:03,576 django.server INFO "GET /static/img/shopping-white.png HTTP/1.1" 200 10009
+2024-10-07 09:00:03,668 django.server INFO "GET /static/css/style%2002.css HTTP/1.1" 200 5018
+2024-10-07 09:00:03,979 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 09:00:04,271 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-10-07 09:00:04,294 django.server INFO "GET /static/img/touth-white-17-18.png HTTP/1.1" 200 5213
+2024-10-07 09:00:04,537 django.server INFO "GET /Ramen/index04/ HTTP/1.1" 200 2201
+2024-10-07 09:00:04,689 django.server INFO "GET /static/css/style%2004.css HTTP/1.1" 200 7631
+2024-10-07 09:00:04,692 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-10-07 09:00:04,701 django.server INFO "GET /static/img/left.png HTTP/1.1" 200 7733
+2024-10-07 09:00:04,705 django.server INFO "GET /static/img/right-plus.png HTTP/1.1" 200 7788
+2024-10-07 09:00:04,709 django.server INFO "GET /static/img/again.png HTTP/1.1" 200 9408
+2024-10-07 09:00:04,725 django.server INFO "GET /static/js/order_count.js HTTP/1.1" 200 1010
+2024-10-07 09:00:04,728 django.server INFO "GET /static/img/check.png HTTP/1.1" 200 10761
+2024-10-07 09:00:04,734 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 09:00:06,479 django.server INFO "GET /Ramen/db_index00/?count=1 HTTP/1.1" 200 1074
+2024-10-07 09:00:06,550 django.server INFO "GET /static/css/db_style00.css HTTP/1.1" 200 2257
+2024-10-07 09:00:06,665 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 09:00:11,954 my_custom_logger INFO ªÁπ¯: 20190118, ¿Ã∏ß: ¿Ã¿Œ¿Á, ¡÷πÆºˆ∑Æ: 1
+2024-10-07 09:00:11,963 django.server INFO "POST /Ramen/db_index00/ HTTP/1.1" 302 0
+2024-10-07 09:00:12,184 django.server INFO "GET /Ramen/index05/1/20190118/ HTTP/1.1" 200 1544
+2024-10-07 09:00:12,225 django.server INFO "GET /static/css/style%2005.css HTTP/1.1" 200 4750
+2024-10-07 09:00:12,237 django.server INFO "GET /static/img/ABIMAN-CI-white.png HTTP/1.1" 200 10874
+2024-10-07 09:00:12,245 django.server INFO "GET /static/img/end.png HTTP/1.1" 200 88644
+2024-10-07 09:00:12,247 django.server INFO "GET /static/js/display_count.js HTTP/1.1" 200 627
+2024-10-07 09:00:12,264 django.server INFO "GET /static/img/raman-03.jpg HTTP/1.1" 200 4110880
+2024-10-07 09:00:17,513 django.server INFO "GET /Ramen/?count=1 HTTP/1.1" 200 1684
+2024-10-07 09:00:17,568 django.server INFO "GET /static/css/style.css HTTP/1.1" 200 5113
+2024-10-07 09:00:17,571 django.server INFO "GET /static/img/ABIMAN-CI-bagic.png HTTP/1.1" 200 10572
+2024-10-07 09:00:17,577 django.server INFO "GET /static/img/touth-black.png HTTP/1.1" 200 5557
+2024-10-07 09:00:17,578 django.server INFO "GET /static/img/fork-white.png HTTP/1.1" 200 6848
+2024-10-07 09:00:17,641 django.server INFO "GET /static/img/kitchen-bg.jpg HTTP/1.1" 200 17019309
