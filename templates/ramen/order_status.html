@@ -1,5 +1,5 @@
 {% load static %}
-{% load range_filter %}
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -11,27 +11,31 @@
 <body>
     <!-- 왼쪽 패널 (주문 완료) -->
     <div class="left-panel">
-        <div class="cell merged-order-complete">주문 완료</div>
-        
+        <div class="cell merged-order-complete">조리 완료</div>
+        <!-- 주문 완료 패널: 8개의 셀 고정 -->
         {% for order in completed_orders %}
-            <div class="cell">{{ order.employee_id }}</div>
+            <div class="cell">
+                {{ order.employee_id }} <!-- PREPARING 상태인 경우 표시 -->
+            </div>
         {% endfor %}
-        
-        {% for _ in completed_orders.count|get_range:8 %}
-            <div class="cell"></div>
+        <!-- 빈 셀 채우기 -->
+        {% for _ in empty_completed_cells %}
+            <div class="cell">&nbsp;</div>
         {% endfor %}
     </div>
 
     <!-- 오른쪽 패널 (준비 중) -->
     <div class="right-panel">
-        <div class="cell merged-order-waiting">준비 중</div>
-        
+        <div class="cell merged-order-waiting">조리 중</div>
+        <!-- 준비 중 패널: 8개의 셀 고정 -->
         {% for order in preparing_orders %}
-            <div class="cell">{{ order.employee_id }}</div>
+            <div class="cell">
+                {{ order.employee_id }} <!-- remaining_count > 0인 경우 표시 -->
+            </div>
         {% endfor %}
-        
-        {% for _ in preparing_orders.count|get_range:8 %}
-            <div class="cell"></div>
+        <!-- 빈 셀 채우기 -->
+        {% for _ in empty_preparing_cells %}
+            <div class="cell">&nbsp;</div>
         {% endfor %}
     </div>
 
