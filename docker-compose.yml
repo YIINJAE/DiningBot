@@ -12,5 +12,5 @@ services:
       - "30000:8000"
     environment:
       DJANGO_ALLOWED_HOSTS: "192.168.1.210"
-    container_name: Ramen-Dep
+    container_name: Ramen-Dep_Rev.01
     restart: always
