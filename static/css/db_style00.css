@@ -60,14 +60,11 @@ body {
     border: none;
     border-radius: 4px;
     color: #00000088;
-    /* font-weight: bold; */
     cursor: pointer;
     box-sizing: border-box;
     /* 패딩을 포함하여 폭을 계산 */
     font-size: 30px;
-    /* 텍스트 크기 증가 */
     font-family: 'Black Han Sans', Arial, sans-serif;
-    /* 버튼 텍스트에 Black Han Sans 적용 */
 }
 
 .messages {
@@ -75,8 +72,44 @@ body {
     color: red;
     text-align: center;
     font-family: 'Black Han Sans', Arial, sans-serif;
-    /* 메시지에 Black Han Sans 적용 */
     font-size: 15px;
     font-weight: bold;
+}
 
+/* 숫자 키패드 팝업 스타일 */
+.number-pad {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.number-pad button {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.number-pad button:active {
+    background-color: #bbb;
+}
+
+#enter-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* 사원번호, 비밀번호 필드 클릭 가능하게 설정 */
+.input-field {
+    cursor: pointer;
 }
