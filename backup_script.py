@@ -38,8 +38,8 @@ def cleanup_old_backups():
                 print(f"Deleted old backup: {file_path}")
 
 # 매일 오전 8시에 백업 및 정리 작업을 수행
-schedule.every().day.at("09:51").do(backup_db)
-schedule.every().day.at("09:51").do(cleanup_old_backups)
+schedule.every().day.at("09:30").do(backup_db)
+schedule.every().day.at("09:30").do(cleanup_old_backups)
 
 if __name__ == "__main__":
     while True:
