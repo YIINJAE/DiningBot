@@ -79,27 +79,6 @@ def mark_order_completed(order_id):
     except OrderStatus.DoesNotExist:
         logging.error(f"Order with id {order_id} does not exist.")
 
-
-# def decrement_remaining_count():
-#     # remaining_count가 0이 아닌 주문들을 id 오름차순으로 정렬하여 가져옵니다
-#     orders = OrderStatus.objects.filter(remaining_count__gt=0).order_by('id')
-
-#     # 가장 위의 주문의 remaining_count 값을 1 감소시킵니다
-#     if orders.exists():
-#         order = orders.first()  # id가 가장 작은 첫 번째 주문
-#         order.remaining_count -= 1  # remaining_count 값을 1 감소
-
-#         # remaining_count가 0이 되면 상태를 COMPLETED로 변경
-#         if order.remaining_count <= 0:
-#             order.remaining_count = 0  # 0 이하로 떨어지지 않게 유지
-#             order.status = 'COMPLETED'  # 상태를 COMPLETED로 변경
-#             logging.info(f"Order {order.employee_id} is now COMPLETED.")
-
-#         order.save()  # 변경 사항 저장
-#         logging.info(f"Updated order {order.employee_id}: remaining_count = {order.remaining_count}")
-#     else:
-#         logging.info("No orders with remaining_count greater than 0.")
-
 def start_modbus_thread():
     logging.info("Starting Modbus communication thread...")
     modbus_thread = threading.Thread(target=read_modbus_data)
