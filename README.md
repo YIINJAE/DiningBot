@@ -25,3 +25,5 @@
 - 해당프로젝트 경로에서 cmd창에서 다음 코드 실행
 - docker-compose up --build
 - Container 이름 변경을 원하면 docker-compose.yml 파일에서 container_name 부분변경
+
+## 6. DB주문내역 삭제방법
