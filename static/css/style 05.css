@@ -166,7 +166,7 @@ a {
 }
 
 .box01 .end {
-  width: 600px;
+  width: 400px;
   height: auto;
   position: absolute;
   top: 70px;
@@ -209,10 +209,10 @@ a {
   }
 
   .box01 .end {
-    width: 100%;
+    width: 75%;
     display: block;
-    left: 0;
-    top: 150px;
+    left: 140px;
+    top: 280px;
     margin: 0 auto;
     text-align: center;
     color: #ffffff;
@@ -261,7 +261,7 @@ a {
   .box02 .info {
     display: block;
     width: 300px;
-    padding-top: 90px;
+    padding-top: 450px;
     height: 300px;
     margin: 0 auto;
     font: 35px 'Black Han Sans';
@@ -296,7 +296,7 @@ a {
 
   @media screen and (max-width: 1200px) {
     .box02 p {
-      font-size: 220px;
+      font-size: 350px;
     }
 
     @media screen and (max-width: 980px) {}

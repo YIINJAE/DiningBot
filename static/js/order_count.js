@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('decrease').addEventListener('click', function(e) {
         e.preventDefault();
-        if (count > 0) {  // count가 0보다 클 때만 감소시킵니다.
+        if (count > 1) {  // count가 0보다 클 때만 감소시킵니다.
             count--;
             countElement.textContent = count;
         }
