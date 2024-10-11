@@ -13,6 +13,13 @@ function addNumber(number) {
     }
 }
 
+// 마지막 글자 지우기 (지우기 버튼 기능 추가)
+function deleteLastChar() {
+    if (activeInput && activeInput.value.length > 0) {
+        activeInput.value = activeInput.value.slice(0, -1);  // 입력 필드의 마지막 문자를 제거
+    }
+}
+
 // Enter 버튼 클릭 시 입력 완료
 function submitInput() {
     document.getElementById('number-pad').style.display = 'none';  // 키패드 숨기기
