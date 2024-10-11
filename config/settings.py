@@ -149,13 +149,18 @@ import logging
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
+    'filters': {
+        'ignore_order_status': {
+            '()': 'Ramen.utils.IgnoreOrderStatusFilter',  # 실제 모듈 경로로 변경
+        },
+    },
     'formatters': {
         'verbose': {
             'format': '{asctime} {name} {levelname} {message}',
             'style': '{',
         },
         'simple': {
-            'format': '{asctime} {levelname} {message}',  # 날짜와 시간을 로그 메시지의 앞부분에 추가
+            'format': '{asctime} {levelname} {message}',
             'style': '{',
             'datefmt': '%Y-%m-%d %H:%M:%S',
         },
@@ -166,24 +171,21 @@ LOGGING = {
             'class': 'logging.FileHandler',
             'filename': LOG_DIR / 'django.log',
             'formatter': 'verbose',
+            'filters': ['ignore_order_status'],  # 필터 추가
         },
         'console': {
             'level': 'INFO',
             'class': 'logging.StreamHandler',
-            'formatter': 'simple',  # 'simple' 포맷터를 사용
-            'stream': sys.stdout,  # 표준 출력을 명시적으로 지정
+            'formatter': 'simple',
+            'stream': sys.stdout,
         },
     },
     'loggers': {
-        'django': {
+        'django.server': {
             'handlers': ['file', 'console'],
             'level': 'INFO',
-            'propagate': True,
-        },
-        'my_custom_logger': {
-            'handlers': ['file', 'console'],
-            'level': 'INFO',
-            'propagate': True,
+            'filters': ['ignore_order_status'],  # 필터 추가
+            'propagate': False,
         },
     },
 }

@@ -31,19 +31,19 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 85px;
 }
 
 .merged-order-complete {
     grid-column: span 2;
     background-color: #000;
     color: #ffff00;
-    font-size: 50px;
+    font-size: 150px;
 }
 
 .merged-order-waiting {
     grid-column: span 2;
     background-color: #000;
     color: #00ffff;
-    font-size: 50px;
+    font-size: 150px;
 }
