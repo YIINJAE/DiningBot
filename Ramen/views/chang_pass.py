@@ -2,7 +2,7 @@ from django.contrib.auth.hashers import check_password
 from django.contrib import messages
 from django.contrib.auth import login
 from django.shortcuts import render, redirect
-from ..models import MyModel
+from ..models import MyModel, OrderStatus
 
 def change_password(request, employee_id, count):
     if request.method == "POST":
@@ -43,6 +43,13 @@ def change_password(request, employee_id, count):
                 )
                 my_model_instance.save()
 
+                # OrderStatus에 주문 상태 데이터 저장
+                order_status_instance = OrderStatus.objects.create(
+                    employee_id=employee_id,
+                    name=user.first_name,
+                    initial_count=count,
+                    remaining_count=count
+            )
                 return redirect('Ramen:index05',  employee_id=employee_id, count=count)
             else:
                 messages.error(request, '새로운 비밀번호가 일치하지 않습니다')
