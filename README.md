@@ -27,3 +27,8 @@
 - Container 이름 변경을 원하면 docker-compose.yml 파일에서 container_name 부분변경
 
 ## 6. DB주문내역 삭제방법
+ - 터미널 실행
+ - from Ramen.models import MyModel, OrderStatus
+ - MyModel.objects.all().delete()
+ - OrderStatus.objects.all().delete()
+ - exit()
