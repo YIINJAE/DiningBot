@@ -1,49 +1,55 @@
 /* 기본적인 스타일 */
 body {
     margin: 0;
-    display: flex;
-    height: 100vh;
-    background-color: #000;
+    display: flex;  /* 플렉스 레이아웃 사용하여 좌우 패널 배치 */
+    height: 100vh;  /* 화면의 전체 높이를 사용 */
+    background-color: #000;  /* 배경색을 검정색으로 설정 */
 }
 
+/* 좌측 및 우측 패널 스타일 */
 .left-panel, .right-panel {
-    flex: 1;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 5px;
-    border: 1px solid #fff;
+    flex: 1;  /* 좌우 패널이 동일한 비율로 화면을 차지 */
+    padding: 10px;  /* 패널 안쪽에 여백 추가 */
+    display: grid;  /* 그리드 레이아웃을 사용하여 내부 구성 */
+    grid-template-columns: repeat(2, 1fr);  /* 2개의 열을 동일한 너비로 생성 */
+    grid-template-rows: repeat(5, 1fr);  /* 5개의 행을 동일한 높이로 생성 */
+    gap: 5px;  /* 그리드 셀 간격 설정 */
+    border: 1px solid #fff;  /* 패널의 테두리 설정 */
 }
 
+/* 좌측 패널의 셀 스타일 - 노란색 텍스트 */
 .left-panel .cell {
-    color: #ffff00;
+    color: #ffff00;  /* 텍스트 색상 노란색 */
 }
 
+/* 우측 패널의 셀 스타일 - 밝은 청록색 텍스트 */
 .right-panel .cell {
-    color: #16e4f3;
+    color: #16e4f3;  /* 텍스트 색상 밝은 청록색 */
 }
 
+/* 셀 기본 스타일 */
 .cell {
-    background-color: #000;
-    border: 1px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 85px;
+    background-color: #000;  /* 배경색 검정 */
+    border: 1px solid #fff;  /* 흰색 테두리 */
+    display: flex;  /* 플렉스 박스 사용으로 중앙 정렬 */
+    justify-content: center;  /* 가로 중앙 정렬 */
+    align-items: center;  /* 세로 중앙 정렬 */
+    font-weight: bold;  /* 굵은 텍스트 */
+    font-size: 85px;  /* 큰 글꼴 크기 */
 }
 
+/* 주문 완료 셀 - 좌우 패널에 걸쳐지는 큰 셀 */
 .merged-order-complete {
-    grid-column: span 2;
-    background-color: #000;
-    color: #ffff00;
-    font-size: 150px;
+    grid-column: span 2;  /* 그리드에서 2개의 열을 차지 */
+    background-color: #000;  /* 배경색 검정 */
+    color: #ffff00;  /* 텍스트 색상 노란색 */
+    font-size: 150px;  /* 아주 큰 글꼴 크기 */
 }
 
+/* 대기 중인 주문 셀 - 좌우 패널에 걸쳐지는 큰 셀 */
 .merged-order-waiting {
-    grid-column: span 2;
-    background-color: #000;
-    color: #00ffff;
-    font-size: 150px;
+    grid-column: span 2;  /* 그리드에서 2개의 열을 차지 */
+    background-color: #000;  /* 배경색 검정 */
+    color: #00ffff;  /* 텍스트 색상 밝은 청록색 */
+    font-size: 150px;  /* 아주 큰 글꼴 크기 */
 }

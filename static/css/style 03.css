@@ -1,9 +1,11 @@
+/* 모든 요소에 기본 마진과 패딩 제거, 크기 계산 방식 설정 */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* padding과 border를 포함하여 크기 계산 */
 }
 
+/* before와 after 의사 요소에 대한 동일한 초기화 적용 */
 *::before,
 *::after {
   margin: 0;
@@ -11,235 +13,242 @@
   box-sizing: border-box;
 }
 
+/* 리스트 스타일 제거 */
 ul,
 ol,
 li {
-  list-style: none;
+  list-style: none; /* 불릿포인트 제거 */
 }
 
+/* 링크에서 밑줄 제거 */
 a {
   text-decoration: none;
 }
 
+/* 콘텐츠 영역 스타일 */
 .content {
-  width: 100%;
-  padding: 0
+  width: 100%; /* 전체 너비 */
+  padding: 0; /* 패딩 없음 */
 }
 
+/* 내부 콘텐츠 컨테이너 스타일 */
 .inner {
-  width: 1176px;
-  height: 100vh;
-  margin: 0 auto;
+  width: 1176px; /* 고정된 너비 */
+  height: 100vh; /* 전체 화면 높이 */
+  margin: 0 auto; /* 가운데 정렬 */
 }
 
+/* 내부 요소 플로트 해제 */
 .inner::after {
-  content: '';
-  clear: both;
+  content: ''; /* 빈 내용 생성 */
+  clear: both; /* 플로트 해제 */
   display: block;
 }
 
+/* 타이틀 텍스트 스타일 */
 .content .title {
-  margin: 0 0 40px;
-  font: bold 28px 'Black Han Sans';
-  text-align: center;
+  margin: 0 0 40px; /* 하단 마진 */
+  font: bold 28px 'Black Han Sans'; /* 글꼴 설정 */
+  text-align: center; /* 가운데 정렬 */
 }
 
+/* 설명 텍스트 스타일 */
 .content .txt {
-  margin: 0 0 60px;
-  font: 14px 'Black Han Sans'
+  margin: 0 0 60px; /* 하단 마진 */
+  font: 14px 'Black Han Sans'; /* 글꼴 설정 */
 }
 
+/* 화면 크기 1200px 이하일 때 적용 */
 @media screen and (max-width: 1200px) {
   .inner {
-    width: 100%;
+    width: 100%; /* 너비를 100%로 변경 */
   }
 
   .content {
-    padding: 120px 40px
+    padding: 120px 40px; /* 상하 120px, 좌우 40px 패딩 */
   }
-
-  /* 태블릿 : 좌우 40px*/
 }
 
+/* 태블릿 스타일: 크기가 980px 이하일 때 적용 */
 @media screen and (max-width: 980px) {}
 
+/* 태블릿 및 작은 화면 스타일 */
 @media screen and (max-width: 768px) {
   .content {
-    padding: 80px 40px
+    padding: 80px 40px; /* 상하 80px, 좌우 40px 패딩 */
   }
 
   .content .title {
-    font-size: 20px;
+    font-size: 20px; /* 타이틀 폰트 크기 감소 */
   }
 }
 
+/* 모바일 화면 스타일 */
 @media screen and (max-width: 640px) {
   .content {
-    padding: 60px 20px
+    padding: 60px 20px; /* 상하 60px, 좌우 20px 패딩 */
   }
 }
 
+/* 작은 모바일 화면 스타일 */
 @media screen and (max-width: 480px) {}
 
-
+/* 헤더 스타일 */
 #header {
-  width: 100%;
-  height: auto;
+  width: 100%; /* 전체 너비 */
+  height: auto; /* 자동 높이 */
 }
 
+/* 비주얼 이미지 섹션 스타일 */
 #visual {
   display: block;
-  width: 100%;
+  width: 100%; /* 전체 너비 */
 }
 
+/* 푸터 스타일 */
 #footer {
-  width: 100%;
-  background-color: #333;
+  width: 100%; /* 전체 너비 */
+  background-color: #333; /* 배경색 어둡게 */
 }
 
-/* .black-han-sans-regular {
-    font-family: "Black Han Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
-
+/* 배경 로고 스타일 */
 .bg-logo {
-  width: 10%;
-  top: 30px;
-  right: 30px;
-  position: absolute;
-  z-index: 2;
+  width: 10%; /* 로고 크기 */
+  top: 30px; /* 상단에서 30px 떨어짐 */
+  right: 30px; /* 오른쪽에서 30px 떨어짐 */
+  position: absolute; /* 절대 위치 */
+  z-index: 2; /* z-index로 레이어 순서 조정 */
 }
 
+/* 뒤로가기 버튼 스타일 */
 .back {
-  width: 15%;
-  top: 15px;
-  left: 15px;
-  position: absolute;
-  z-index: 2;
+  width: 15%; /* 버튼 너비 */
+  top: 15px; /* 상단에서 15px 떨어짐 */
+  left: 15px; /* 왼쪽에서 15px 떨어짐 */
+  position: absolute; /* 절대 위치 */
+  z-index: 2; /* z-index로 레이어 순서 조정 */
 }
 
+/* 배경 이미지 스타일 */
 .bg {
-  width: 100%;
-  height: 105vh;
-  position: fixed;
+  width: 100%; /* 전체 너비 */
+  height: 105vh; /* 화면 높이보다 약간 크게 설정 */
+  position: fixed; /* 고정된 위치 */
 }
 
-/* .box01{ width: 300px; margin: 0 auto;  margin-top: 50px;} */
+/* 반투명 배경 상자 스타일 */
 .bg-box {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: #00000055;
+  width: 100%; /* 전체 너비 */
+  height: 100%; /* 전체 높이 */
+  position: fixed; /* 고정된 위치 */
+  background-color: #00000055; /* 반투명 검정색 배경 */
 }
 
-
+/* 첫 번째 박스 스타일 */
 .box01 {
-  float: left;
-  position: relative;
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  font-family: Black Han Sans;
+  float: left; /* 왼쪽으로 플로팅 */
+  position: relative; /* 상대적 위치 */
+  width: 100%; /* 전체 너비 */
+  display: block; /* 블록 요소 */
+  margin: 0 auto; /* 가운데 정렬 */
+  font-family: Black Han Sans; /* 글꼴 설정 */
 }
 
+/* 첫 번째 박스의 타이틀 스타일 */
 .box01 .title {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 30px;
-  font-weight: 500;
-  font-size: 90px;
-  text-align: center;
-  color: #ffffff;
+  display: block; /* 블록 요소 */
+  width: 100%; /* 전체 너비 */
+  margin: 0 auto; /* 가운데 정렬 */
+  margin-top: 30px; /* 상단 마진 */
+  font-weight: 500; /* 글꼴 굵기 */
+  font-size: 90px; /* 글꼴 크기 */
+  text-align: center; /* 가운데 정렬 */
+  color: #ffffff; /* 글자색 흰색 */
 }
 
+/* 첫 번째 박스의 서브타이틀 스타일 */
 .box01 .subtitle {
-  display: inline-block;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 120px;
-  font-weight: 100;
-  font-size: 40px;
-  text-align: center;
-  color: #ffffff;
+  display: inline-block; /* 인라인 블록 */
+  width: 100%; /* 전체 너비 */
+  margin: 0 auto; /* 가운데 정렬 */
+  margin-top: 120px; /* 상단 마진 */
+  font-weight: 100; /* 글꼴 얇게 */
+  font-size: 40px; /* 글꼴 크기 */
+  text-align: center; /* 가운데 정렬 */
+  color: #ffffff; /* 글자색 흰색 */
 }
 
+/* 터치 아이콘 컨테이너 스타일 */
 .box01 .touch {
-  width: 300px;
-  height: auto;
-  padding-top: 50px;
-  margin: 0 auto;
-  text-align: center;
-  color: #ffffff;
+  width: 300px; /* 너비 설정 */
+  height: auto; /* 높이는 자동 설정 */
+  padding-top: 50px; /* 상단 패딩 */
+  margin: 0 auto; /* 가운데 정렬 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  color: #ffffff; /* 글자색 흰색 */
 }
 
+/* 손 모양 아이콘 스타일 */
 .box01 .hand {
-  float: left;
-  display: block;
-  width: 30px;
-  height: auto;
+  float: left; /* 왼쪽 플로팅 */
+  display: block; /* 블록 요소 */
+  width: 30px; /* 아이콘 너비 */
+  height: auto; /* 높이 자동 설정 */
 }
 
+/* 터치 설명 텍스트 스타일 */
 .box01 .touch p {
-  float: left;
-  width: calc(100% - 30px);
-  padding-top: 5px;
-  font-weight: 100;
-  font-size: 30px;
+  float: left; /* 왼쪽 플로팅 */
+  width: calc(100% - 30px); /* 30px을 제외한 전체 너비 */
+  padding-top: 5px; /* 상단 패딩 */
+  font-weight: 100; /* 얇은 글꼴 */
+  font-size: 30px; /* 글꼴 크기 */
 }
 
-
-
-
+/* 두 번째 박스 스타일 (fix된 위치와 크기 설정) */
 .box02 {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 450px;
-  right: 30px;
-  display: block;
-  z-index: 5;
-  transition: 0.5;
-  transition: 0.5s;
+  position: fixed; /* 고정된 위치 */
+  width: 100%; /* 전체 너비 */
+  height: 100%; /* 전체 높이 */
+  top: 450px; /* 상단에서 450px 떨어짐 */
+  right: 30px; /* 오른쪽에서 30px 떨어짐 */
+  display: block; /* 블록 요소 */
+  z-index: 5; /* z-index로 레이어 순서 설정 */
+  transition: 0.5; /* 전환 시간 설정 */
+  transition: 0.5s; /* 전환 시간 설정 */
 }
 
+/* 두 번째 박스 안의 정보 텍스트 스타일 */
 .box02 .info {
-  display: block;
-  width: 300px;
-  padding-top: 90px;
-  height: 300px;
-  border: 1px solid #ffffff;
-  border-radius: 300px;
-  margin: 0 auto;
-  font: 35px 'Black Han Sans';
-  color: #ffffff;
+  display: block; /* 블록 요소 */
+  width: 300px; /* 너비 설정 */
+  padding-top: 90px; /* 상단 패딩 */
+  height: 300px; /* 높이 설정 */
+  border: 1px solid #ffffff; /* 테두리 설정 */
+  border-radius: 300px; /* 둥근 테두리 설정 */
+  margin: 0 auto; /* 가운데 정렬 */
+  font: 35px 'Black Han Sans'; /* 글꼴 설정 */
+  color: #ffffff; /* 글자색 흰색 */
 }
 
+/* 두 번째 박스 안의 마이크 아이콘 스타일 */
 .box02 .mic {
-  margin: 0 auto;
-  display: block;
-  width: 50px;
-  height: auto;
+  margin: 0 auto; /* 가운데 정렬 */
+  display: block; /* 블록 요소 */
+  width: 50px; /* 너비 설정 */
+  height: auto; /* 높이는 자동 설정 */
 }
 
+/* 두 번째 박스의 텍스트 스타일 */
 .box02 p {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 45px;
+  margin-top: 20px; /* 상단 마진 */
+  text-align: center; /* 텍스트 가운데 정렬 */
+  font-size: 45px; /* 글꼴 크기 */
 }
 
-
-/* a{  display: inline-block; font-size: 35px; font-family: Black Han Sans; text-decoration: none; color: #ffffff; text-align: center;} */
-
-
-
-/* .bg-coloar{width: 100%; height: 100pc; background-color: #00000070; position: fixed; z-index: 1; } */
-
-
-
+/* 호버 효과: 두 번째 박스의 info 클래스에 적용 */
 .box02 .info:hover {
-  background-color: #ffffff50;
-  transform: scale(1.1);
-  transition: 1.7s;
+  background-color: #ffffff50; /* 호버 시 반투명 배경 */
+  transform: scale(1.1); /* 1.1배 확대 */
+  transition: 1.7s; /* 부드러운 전환 시간 */
 }

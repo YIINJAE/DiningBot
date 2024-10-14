@@ -1,6 +1,6 @@
 body {
     font-family: 'Black Han Sans', Arial, sans-serif;
-    /* 기본 글꼴을 Black Han Sans로 지정 */
+    /* 기본 글꼴을 Black Han Sans로 설정 */
     background-color: #f4f4f4;
     background-image: url(../img/raman-03.jpg);
     background-size: cover;
@@ -16,33 +16,34 @@ body {
 .login-container {
     background-color: rgba(255, 255, 255, 0.664);
     padding: 40px;
-    /* 패딩을 키워서 안쪽 여백 증가 */
+    /* 안쪽 여백을 키워서 공간 확보 */
     border-radius: 10px;
-    /* 모서리 둥글기 증가 */
+    /* 모서리를 둥글게 */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    /* 그림자를 좀 더 진하게 */
+    /* 좀 더 진한 그림자 추가 */
     width: 500px;
-    /* 폭을 크게 조정 */
+    /* 로그인 폼의 폭 설정 */
     max-width: 90%;
-    /* 화면이 좁을 때에도 폼이 넘치지 않도록 유지 */
+    /* 작은 화면에서도 넘치지 않게 조정 */
     box-sizing: border-box;
-    /* 패딩을 포함하여 폭을 계산 */
+    /* 패딩 포함해서 폭 계산 */
     height: 700px;
-    /* 높이를 자동으로 조정 */
+    /* 높이를 고정 */
 }
-
 
 .login-container h2 {
     text-align: center;
     margin-bottom: 25px;
     font: 80px 'Black Han Sans', Arial, sans-serif;
+    /* 헤더 폰트 설정 */
 }
 
 .login-container label {
     display: block;
     margin-bottom: 20px;
-    /* 사원번호와 비밀번호 입력 필드 사이 간격 증가 */
+    /* 라벨과 입력 필드 간격 설정 */
     font: 50px 'Black Han Sans', Arial, sans-serif;
+    /* 라벨 폰트 설정 */
 }
 
 .login-container input[type="text"],
@@ -51,11 +52,12 @@ body {
     max-width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    /* 비밀번호 입력 필드와 확인 버튼 사이 간격 증가 */
+    /* 입력 필드 간격 조정 */
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     font-family: 'Black Han Sans', Arial, sans-serif;
+    /* 입력 필드 폰트 설정 */
     background-color: rgba(255, 255, 255, 0.6);
     font-size: 25px;
 }
@@ -113,27 +115,29 @@ body {
     background-color: #bbb;
 }
 
+/* 엔터 버튼 스타일 */
 #enter-btn {
     background-color: #4CAF50;
     color: white;
 }
 
-/* 사원번호, 비밀번호 필드 클릭 가능하게 설정 */
+/* 입력 필드를 클릭할 수 있게 설정 */
 .input-field {
     cursor: pointer;
 }
 
-
-.calc-button-row{
+/* 계산기 버튼 줄 스타일 */
+.calc-button-row {
     display: flex;
     justify-content: space-between;
     margin: 5% 0;
 }
 
-.calc-button{
+/* 계산기 버튼 스타일 */
+.calc-button {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255,255,255, 0.75);
+    background: rgba(255, 255, 255, 0.75);
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
@@ -144,34 +148,28 @@ body {
     height: 65px;
 }
 
-/* .calc-button:last-child{
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255,255,255, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-    color: #fff;
-    background: #d72880;
-} */
-
-.calc-button:last-child:hover{
+/* 마지막 버튼 호버 시 기본 스타일 유지 */
+.calc-button:last-child:hover {
     background-color: inherit;
     color: inherit;
 }
 
-.calc-button:hover{
+/* 계산기 버튼 호버 스타일 */
+.calc-button:hover {
     background-color: inherit;
 }
 
-.calc-button:active{
+/* 계산기 버튼 활성화 상태 */
+.calc-button:active {
     background-color: #ffef78;
 }
 
-.double{
+/* 이중 너비 버튼 */
+.double {
     flex-basis: 63%;
 }
 
-.triple{
+/* 전체 너비 버튼 */
+.triple {
     flex-basis: 100%;
 }

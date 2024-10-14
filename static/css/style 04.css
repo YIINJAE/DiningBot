@@ -1,10 +1,11 @@
-/* 수정 : 2024.08.30 작성자 : 이인재 // 버튼 위치 가운데정렬 */
+/* 작성자: 이인재, 2024.08.30 수정 // 버튼 위치 가운데 정렬 */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* padding과 border를 포함한 크기 계산 */
 }
 
+/* before와 after 의사 요소에 대한 동일한 초기화 */
 *::before,
 *::after {
   margin: 0;
@@ -12,378 +13,420 @@
   box-sizing: border-box;
 }
 
+/* 리스트 항목 스타일 초기화 */
 ul,
 ol,
 li {
-  list-style: none;
+  list-style: none; /* 리스트 점 제거 */
 }
 
+/* 링크에 밑줄을 없앰 */
 a {
   text-decoration: none;
 }
 
+/* 콘텐츠 영역 스타일 */
 .content {
   width: 100%;
-  padding: 0
+  padding: 0; /* 패딩 없음 */
 }
 
+/* 내부 컨테이너 스타일 */
 .inner {
-  width: 1176px;
-  height: 100vh;
-  margin: 0 auto;
+  width: 1176px; /* 고정 너비 */
+  height: 100vh; /* 전체 화면 높이 */
+  margin: 0 auto; /* 가운데 정렬 */
 }
 
+/* 플로트 해제용 */
 .inner::after {
-  content: '';
-  clear: both;
+  content: ''; /* 빈 컨텐츠 */
+  clear: both; /* 플로트 해제 */
   display: block;
 }
 
+/* 타이틀 스타일 */
 .content .title {
-  margin: 0 0 40px;
-  font: bold 28px 'Black Han Sans';
-  text-align: center;
+  margin: 0 0 40px; /* 하단 마진 */
+  font: bold 28px 'Black Han Sans'; /* 굵은 글꼴 */
+  text-align: center; /* 가운데 정렬 */
 }
 
+/* 텍스트 스타일 */
 .content .txt {
-  margin: 0 0 60px;
-  font: 14px 'Black Han Sans'
+  margin: 0 0 60px; /* 하단 마진 */
+  font: 14px 'Black Han Sans'; /* 글꼴 설정 */
 }
 
+/* 화면 크기 1200px 이하일 때 스타일 */
 @media screen and (max-width: 1200px) {
   .inner {
-    width: 100%;
-    height: auto;
+    width: 100%; /* 전체 너비로 설정 */
+    height: auto; /* 높이를 자동으로 */
   }
 
   .content {
-    padding: 120px 40px
+    padding: 120px 40px; /* 상하 120px, 좌우 40px 패딩 */
   }
 }
 
+/* 화면 크기 980px 이하일 때 스타일 */
 @media screen and (max-width: 980px) {}
 
+/* 화면 크기 768px 이하일 때 스타일 */
 @media screen and (max-width: 768px) {
   .content {
-    padding: 80px 40px
+    padding: 80px 40px; /* 상하 80px, 좌우 40px 패딩 */
   }
 
   .content .title {
-    font-size: 20px;
+    font-size: 20px; /* 타이틀 폰트 크기 감소 */
   }
 }
 
+/* 화면 크기 640px 이하일 때 스타일 */
 @media screen and (max-width: 640px) {
   .content {
-    padding: 60px 20px
+    padding: 60px 20px; /* 상하 60px, 좌우 20px 패딩 */
   }
 }
 
+/* 화면 크기 480px 이하일 때 스타일 */
 @media screen and (max-width: 480px) {}
 
+/* 헤더 스타일 */
 #header {
-  width: 100%;
-  height: auto;
+  width: 100%; /* 전체 너비 */
+  height: auto; /* 자동 높이 */
 }
 
+/* 비주얼 섹션 이미지 스타일 */
 #visual {
   display: block;
-  width: 100%;
+  width: 100%; /* 전체 너비 */
 }
 
+/* 푸터 스타일 */
 #footer {
-  width: 100%;
-  background-color: #333;
+  width: 100%; /* 전체 너비 */
+  background-color: #333; /* 어두운 배경 */
 }
 
+/* 배경 로고 스타일 */
 .bg-logo {
-  width: 10%;
-  top: 30px;
-  right: 30px;
-  position: absolute;
-  z-index: 2;
+  width: 10%; /* 로고 크기 */
+  top: 30px; /* 상단에서 30px 떨어짐 */
+  right: 30px; /* 오른쪽에서 30px 떨어짐 */
+  position: absolute; /* 절대 위치 */
+  z-index: 2; /* z-index로 레이어 순서 조정 */
 }
 
+/* 배경 이미지 스타일 */
 .bg {
-  width: 100%;
-  height: 105vh;
-  position: fixed;
+  width: 100%; /* 전체 너비 */
+  height: 105vh; /* 전체 화면보다 조금 더 크게 설정 */
+  position: fixed; /* 고정된 위치 */
 }
 
+/* 반투명 배경 상자 */
 .bg-box {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: #00000055;
+  width: 100%; /* 전체 너비 */
+  height: 100%; /* 전체 높이 */
+  position: fixed; /* 고정된 위치 */
+  background-color: #00000055; /* 반투명 검정색 배경 */
 }
 
+/* 첫 번째 박스 스타일 */
 .box01 {
-  float: left;
-  position: relative;
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  font-family: Black Han Sans;
+  float: left; /* 왼쪽으로 플로팅 */
+  position: relative; /* 상대적 위치 */
+  width: 100%; /* 전체 너비 */
+  display: block; /* 블록 요소 */
+  margin: 0 auto; /* 가운데 정렬 */
+  font-family: Black Han Sans; /* 글꼴 설정 */
 }
 
+/* 첫 번째 박스의 타이틀 스타일 */
 .box01 .title {
   display: block;
-  width: 100%;
+  width: 100%; /* 전체 너비 */
   margin: 0 auto;
-  margin-top: 30px;
-  font-weight: 500;
-  font-size: 90px;
-  text-align: center;
-  color: #ffffff;
+  margin-top: 30px; /* 상단 마진 */
+  font-weight: 500; /* 글꼴 굵기 */
+  font-size: 90px; /* 글꼴 크기 */
+  text-align: center; /* 가운데 정렬 */
+  color: #ffffff; /* 글자색 흰색 */
 }
 
+/* 첫 번째 박스의 서브타이틀 스타일 */
 .box01 .subtitle {
   display: inline-block;
-  width: 100%;
+  width: 100%; /* 전체 너비 */
   margin: 0 auto;
-  margin-top: 60px;
-  font-weight: 100;
-  font-size: 40px;
-  text-align: center;
-  color: #ffffff;
+  margin-top: 60px; /* 상단 마진 */
+  font-weight: 100; /* 얇은 글꼴 */
+  font-size: 40px; /* 글꼴 크기 */
+  text-align: center; /* 가운데 정렬 */
+  color: #ffffff; /* 글자색 흰색 */
 }
 
+/* 첫 번째 박스의 터치 안내 스타일 */
 .box01 .touch {
-  width: 300px;
-  height: auto;
-  padding-top: 30px;
-  margin: 0 auto;
-  text-align: center;
-  color: #ffffff;
+  width: 300px; /* 너비 설정 */
+  height: auto; /* 높이는 자동 */
+  padding-top: 30px; /* 상단 패딩 */
+  margin: 0 auto; /* 가운데 정렬 */
+  text-align: center; /* 가운데 정렬 */
+  color: #ffffff; /* 글자색 흰색 */
 }
 
+/* 손 모양 아이콘 스타일 */
 .box01 .hand {
-  float: left;
+  float: left; /* 왼쪽으로 플로팅 */
   display: block;
-  width: 30px;
-  height: auto;
+  width: 30px; /* 너비 설정 */
+  height: auto; /* 높이는 자동 설정 */
 }
 
+/* 터치 안내 텍스트 스타일 */
 .box01 .touch p {
-  float: left;
-  width: calc(100% - 30px);
-  padding-top: 5px;
-  font-weight: 100;
-  font-size: 30px;
+  float: left; /* 왼쪽으로 플로팅 */
+  width: calc(100% - 30px); /* 30px을 제외한 전체 너비 */
+  padding-top: 5px; /* 상단 패딩 */
+  font-weight: 100; /* 얇은 글꼴 */
+  font-size: 30px; /* 글꼴 크기 */
 }
 
+/* 미디어 쿼리: 1200px 이하일 때 스타일 */
 @media screen and (max-width: 1200px) {
   .content {
-    padding: 0
+    padding: 0; /* 패딩 없음 */
   }
 
   .bg {
-    height: 100%;
+    height: 100%; /* 높이를 전체 화면으로 설정 */
   }
 
   #type1 .box01 {
-    width: 100%;
+    width: 100%; /* 전체 너비 */
   }
 
   .box01 .title {
-    font-size: 50px;
+    font-size: 50px; /* 타이틀 크기 줄이기 */
   }
 
   .box01 .subtitle {
-    margin-top: 175px;
-    font-size: 100px;
+    margin-top: 175px; /* 상단 마진 조정 */
+    font-size: 100px; /* 서브타이틀 크기 증가 */
     text-align: center;
   }
 
   .bg-logo {
-    width: 25%;
-    top: 20px;
-    right: 20px;
+    width: 25%; /* 로고 크기 증가 */
+    top: 20px; /* 상단에서 20px 떨어짐 */
+    right: 20px; /* 오른쪽에서 20px 떨어짐 */
   }
 
   .box01 .hand {
-    display: none;
+    display: none; /* 작은 화면에서는 손 아이콘 숨김 */
   }
 
   .box01 .touch p {
-    font-size: 25px;
-    margin-left: 15px;
+    font-size: 25px; /* 텍스트 크기 조정 */
+    margin-left: 15px; /* 왼쪽 마진 */
   }
 }
 
+/* 두 번째 박스 스타일 (가운데 정렬된 버튼 영역) */
 .box02 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
   position: fixed;
-  width: 100%;
+  width: 100%; /* 전체 너비 */
   height: 25%;
-  top: 100px;
-  z-index: 5;
+  top: 100px; /* 상단에서 100px 떨어짐 */
+  z-index: 5; /* z-index 설정 */
   text-align: center;
-  position: relative; /* relative to allow absolute positioning of left and right buttons */
+  position: relative; /* 상대적 위치 */
 }
 
+/* 두 번째 박스 안의 정보 영역 스타일 */
 .box02 .info {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 320px;
-  height: 320px;
-  border: 2px solid #ffffff;
-  border-radius: 50%;
+  width: 320px; /* 너비 설정 */
+  height: 320px; /* 높이 설정 */
+  border: 2px solid #ffffff; /* 테두리 설정 */
+  border-radius: 50%; /* 원형으로 만듦 */
   margin: 0 auto;
-  font: 50px 'Black Han Sans';
-  color: #ffffff;
+  font: 50px 'Black Han Sans'; /* 글꼴 설정 */
+  color: #ffffff; /* 글자색 흰색 */
   position: relative;
 }
 
+/* 두 번째 박스 안의 카운트 숫자 스타일 */
 .box02 .count {
-  font-size: 150px;
-  color: #ffffff;
+  font-size: 150px; /* 큰 글꼴 크기 */
+  color: #ffffff; /* 흰색 */
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 50%; /* 중앙에 위치 */
+  left: 50%; /* 중앙에 위치 */
+  transform: translate(-50%, -50%); /* 정확히 가운데 배치 */
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 1; /* 라인 높이 설정 */
 }
 
+/* 두 번째 박스 안의 이미지 스타일 */
 .box02 a img {
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 100px; /* 이미지 크기 */
+  height: 100px; /* 이미지 높이 */
 }
 
+/* 두 번째 박스의 왼쪽 버튼 */
 .box02 .left {
   position: fixed;
-  top: 30%;
-  left: 10px;
-  transform: translateY(-50%);
+  top: 30%; /* 상단에서 30% 위치 */
+  left: 10px; /* 왼쪽에서 10px 떨어짐 */
+  transform: translateY(-50%); /* 수직 중앙 정렬 */
 }
 
+/* 두 번째 박스의 오른쪽 버튼 */
 .box02 .right {
   position: fixed;
-  top: 30%;
-  right: 10px;
-  transform: translateY(-50%);
+  top: 30%; /* 상단에서 30% 위치 */
+  right: 10px; /* 오른쪽에서 10px 떨어짐 */
+  transform: translateY(-50%); /* 수직 중앙 정렬 */
 }
 
+/* 버튼 호버 효과 */
 .box02 a:hover {
-  background-color: #ffffff50;
-  border-radius: 220px;
+  background-color: #ffffff50; /* 반투명 흰색 배경 */
+  border-radius: 220px; /* 둥근 테두리 */
 }
 
+/* 작은 화면을 위한 스타일 */
 @media screen and (max-width: 1200px) {
   .box02 .info {
-    width: 250px;
-    height: 250px;
+    width: 250px; /* 작은 화면에서 너비 조정 */
+    height: 250px; /* 작은 화면에서 높이 조정 */
     padding: 0;
     margin-top: 0;
-    font-size: 15px;
+    font-size: 15px; /* 작은 글꼴 크기 */
   }
 
   .box02 .count {
-    font-size: 150px;
+    font-size: 150px; /* 카운트 숫자 크기 유지 */
   }
 
   .box02 .right {
-    right: 20px;
+    right: 20px; /* 오른쪽에서 20px 떨어짐 */
   }
 
   .box02 .left {
-    left: 20px;
+    left: 20px; /* 왼쪽에서 20px 떨어짐 */
   }
 }
 
+/* 매우 작은 화면 (모바일)에서의 스타일 */
 @media screen and (max-width: 480px) {
   .box02 {
-    height: 20%;
-    top: 140px;
+    height: 20%; /* 높이를 더 줄임 */
+    top: 140px; /* 상단에서 140px 떨어짐 */
   }
 }
 
+/* 세 번째 박스 스타일 (하단 버튼 영역) */
 .box03 {
   position: fixed;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
   flex-direction: row;
-  bottom: 130px;
-  width: 100%;
+  bottom: 130px; /* 하단에서 130px 떨어짐 */
+  width: 100%; /* 전체 너비 */
 }
 
+/* 세 번째 박스 안의 링크 스타일 */
 .box03 a {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font: 35px 'Black Han Sans';
-  color: #ffffff;
+  font: 35px 'Black Han Sans'; /* 글꼴 설정 */
+  color: #ffffff; /* 글자색 흰색 */
   text-align: center;
 }
 
+/* 세 번째 박스 안의 왼쪽 버튼 */
 .box03 .left {
-  width: 450px;
-  height: 150px;
+  width: 450px; /* 너비 설정 */
+  height: 150px; /* 높이 설정 */
   padding: 20px;
   margin-right: 50px;
-  border: 1px solid #ffffff;
-  border-radius: 300px;
+  border: 1px solid #ffffff; /* 흰색 테두리 */
+  border-radius: 300px; /* 둥근 모서리 */
 }
 
+/* 세 번째 박스 안의 오른쪽 버튼 */
 .box03 .right {
-  width: 450px;
-  height: 150px;
+  width: 450px; /* 너비 설정 */
+  height: 150px; /* 높이 설정 */
   padding: 20px;
   text-align: center;
-  border: 1px solid #ffffff;
-  border-radius: 300px;
+  border: 1px solid #ffffff; /* 흰색 테두리 */
+  border-radius: 300px; /* 둥근 모서리 */
 }
 
+/* 세 번째 박스 안의 아이콘 스타일 */
 .box03 .again,
 .box03 .check {
-  width: 40px;
+  width: 40px; /* 아이콘 크기 */
   height: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* 아이콘과 텍스트 사이 간격 */
 }
 
+/* 세 번째 박스 안의 버튼 텍스트 스타일 */
 .box03 p.btn {
-  flex-grow: 1;
+  flex-grow: 1; /* 남은 공간을 채움 */
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
 
+/* 세 번째 박스의 버튼 호버 효과 */
 .box03 a:hover {
-  background-color: #ffffff50;
-  border-radius: 300px;
+  background-color: #ffffff50; /* 반투명 흰색 배경 */
+  border-radius: 300px; /* 둥근 테두리 */
 }
 
+/* 작은 화면을 위한 세 번째 박스 스타일 */
 @media screen and (max-width: 1200px) {
   .box03 {
-    bottom: 200px;
-    flex-direction: column;
+    bottom: 200px; /* 하단에서 200px 떨어짐 */
+    flex-direction: column; /* 수직 정렬 */
     align-items: center;
   }
 
   .box03 a {
-    font: 50px 'Black Han Sans';
-    color: #ffffff;
+    font: 50px 'Black Han Sans'; /* 큰 글꼴 */
+    color: #ffffff; /* 흰색 */
   }
 
   .box03 .left,
   .box03 .right {
-    width: 320px;
-    height: 150px;
+    width: 320px; /* 너비 조정 */
+    height: 150px; /* 높이 조정 */
     padding: 20px;
-    margin: 10px 0;
+    margin: 10px 0; /* 여백 설정 */
   }
 
   .box03 .again,
   .box03 .check {
-    width: 50px;
+    width: 50px; /* 아이콘 크기 증가 */
   }
 }

@@ -1,9 +1,11 @@
+/* 전체 페이지에 기본적인 스타일을 적용합니다. 모든 요소의 마진과 패딩을 제거하고, 박스 크기 계산에 패딩과 보더를 포함하도록 합니다. */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* before와 after 의사 요소에도 동일한 스타일을 적용합니다. */
 *::before,
 *::after {
   margin: 0;
@@ -11,61 +13,74 @@
   box-sizing: border-box;
 }
 
+/* 리스트 스타일을 제거하여 기본적으로 점이나 숫자가 표시되지 않도록 합니다. */
 ul,
 ol,
 li {
   list-style: none;
 }
 
+/* 링크 요소에 기본 밑줄 스타일을 제거합니다. */
 a {
   text-decoration: none;
 }
 
+/* 콘텐츠 영역에 100% 너비를 지정하고 기본 패딩을 제거합니다. */
 .content {
   width: 100%;
-  padding: 0
+  padding: 0;
 }
 
+/* 내부 컨텐츠를 담는 박스에 1176px 너비와 100vh 높이를 설정하고, 중앙 정렬을 위해 margin을 auto로 설정합니다. */
 .inner {
   width: 1176px;
   height: 100vh;
   margin: 0 auto;
 }
 
+/* 플로트 해제를 위한 가상 요소를 사용합니다. */
 .inner::after {
   content: '';
   clear: both;
   display: block;
 }
 
+/* 제목에 마진을 설정하고 글꼴을 설정합니다. 가운데 정렬합니다. */
 .content .title {
   margin: 0 0 40px;
   font: bold 28px 'Black Han Sans';
   text-align: center;
 }
 
+/* 텍스트에 마진과 글꼴 스타일을 지정합니다. */
 .content .txt {
   margin: 0 0 60px;
-  font: 14px 'Black Han Sans'
+  font: 14px 'Black Han Sans';
 }
 
+/* 화면 너비가 1200px 이하일 때의 스타일 설정 */
 @media screen and (max-width: 1200px) {
+  /* 내부 박스의 너비를 100%로 조정하고 높이를 자동으로 설정 */
   .inner {
     width: 100%;
   }
 
+  /* 콘텐츠 영역에 패딩을 추가하여 상하 120px, 좌우 40px 여백을 줍니다. */
   .content {
-    padding: 120px 40px
+    padding: 120px 40px;
   }
 
-  /* 태블릿 : 좌우 40px*/
+  /* 태블릿 크기에서 좌우 여백이 40px로 설정됩니다. */
+  /* 태블릿 : 좌우 40px */
 }
 
+/* 화면 크기가 980px 이하일 때는 별다른 스타일을 적용하지 않습니다. */
 @media screen and (max-width: 980px) {}
 
+/* 화면 크기가 768px 이하일 때 스타일을 적용 */
 @media screen and (max-width: 768px) {
   .content {
-    padding: 80px 40px
+    padding: 80px 40px;
   }
 
   .content .title {
@@ -73,36 +88,35 @@ a {
   }
 }
 
+/* 화면 크기가 640px 이하일 때 스타일을 적용 */
 @media screen and (max-width: 640px) {
   .content {
-    padding: 60px 20px
+    padding: 60px 20px;
   }
 }
 
+/* 화면 크기가 480px 이하일 때는 별다른 스타일을 적용하지 않습니다. */
 @media screen and (max-width: 480px) {}
 
-
+/* 헤더 영역의 너비를 100%로 설정하고 높이는 자동으로 설정합니다. */
 #header {
   width: 100%;
   height: auto;
 }
 
+/* 비주얼 섹션에 표시될 이미지를 전체 너비로 설정합니다. */
 #visual {
   display: block;
   width: 100%;
 }
 
+/* 푸터의 너비를 100%로 설정하고 배경색을 어두운 색으로 지정합니다. */
 #footer {
   width: 100%;
   background-color: #333;
 }
 
-/* .black-han-sans-regular {
-    font-family: "Black Han Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
-
+/* 배경 로고의 크기와 위치를 설정하고 z-index로 다른 요소들 위에 배치합니다. */
 .bg-logo {
   width: 10%;
   top: 30px;
@@ -111,6 +125,7 @@ a {
   z-index: 2;
 }
 
+/* 뒤로가기 버튼의 크기와 위치를 설정합니다. */
 .back {
   width: 15%;
   top: 15px;
@@ -119,13 +134,14 @@ a {
   z-index: 2;
 }
 
+/* 배경 이미지를 전체 화면 크기로 고정하고, 고정된 위치에서 스크롤되지 않도록 설정합니다. */
 .bg {
   width: 100%;
   height: 105vh;
   position: fixed;
 }
 
-/* .box01{ width: 300px; margin: 0 auto;  margin-top: 50px;} */
+/* 배경 상자를 화면 전체 크기로 설정하고, 반투명한 검은색 배경을 추가합니다. */
 .bg-box {
   width: 100%;
   height: 100%;
@@ -133,7 +149,7 @@ a {
   background-color: #00000055;
 }
 
-
+/* 첫 번째 박스 스타일: 글씨체를 적용하고, 박스 안의 콘텐츠들을 중앙에 배치합니다. */
 .box01 {
   float: left;
   position: relative;
@@ -143,6 +159,7 @@ a {
   font-family: Black Han Sans;
 }
 
+/* 제목의 크기와 스타일을 설정하고 중앙에 정렬합니다. */
 .title {
   display: block;
   width: 100%;
@@ -154,6 +171,7 @@ a {
   color: #ffffff;
 }
 
+/* 서브타이틀의 크기와 스타일을 설정합니다. */
 .box01 .subtitle {
   display: inline-block;
   width: 100%;
@@ -165,6 +183,7 @@ a {
   color: #ffffff;
 }
 
+/* end 이미지의 크기와 위치를 설정합니다. */
 .box01 .end {
   width: 400px;
   height: auto;
@@ -176,6 +195,7 @@ a {
   color: #ffffff;
 }
 
+/* 손 모양 이미지를 설정합니다. */
 .box01 .hand {
   float: left;
   display: block;
@@ -183,6 +203,7 @@ a {
   height: auto;
 }
 
+/* 터치 안내 텍스트의 스타일을 설정합니다. */
 .box01 .touch p {
   float: left;
   width: calc(100% - 30px);
@@ -191,9 +212,10 @@ a {
   font-size: 30px;
 }
 
+/* 화면 크기가 1200px 이하일 때의 스타일을 설정합니다. */
 @media screen and (max-width: 1200px) {
   .content {
-    padding: 0
+    padding: 0;
   }
 
   .bg {
@@ -224,91 +246,59 @@ a {
     text-align: center;
   }
 
-
   .bg-logo {
     width: 25%;
     top: 20px;
     right: 20px;
   }
+}
 
-  @media screen and (max-width: 980px) {}
+/* 두 번째 박스의 기본 스타일을 설정하고 상단에서 120px 떨어지게 고정합니다. */
+.box02 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  right: 0px;
+  display: block;
+  z-index: 5;
+  transition: 0.5s;
+}
 
-  @media screen and (max-width: 768px) {}
+/* 두 번째 박스의 텍스트 정보 스타일을 설정합니다. */
+.box02 .info {
+  display: block;
+  width: 300px;
+  padding-top: 450px;
+  height: 300px;
+  margin: 0 auto;
+  font: 35px 'Black Han Sans';
+  color: #ffffff;
+}
 
-  @media screen and (max-width: 640px) {}
+/* 마이크 아이콘 크기와 위치를 설정합니다. */
+.box02 .mic {
+  margin: 0 auto;
+  display: block;
+  width: 50px;
+  height: auto;
+}
 
-  @media screen and (max-width: 480px) {
-    #type1 .box01 {
-      width: 100%;
-    }
+/* 두 번째 박스 안의 텍스트 크기와 스타일을 설정합니다. */
+.box02 p {
+  text-align: center;
+  font-size: 300px;
+  color: #d11d4c;
+}
 
-    /* 한 줄 → 여러 줄*/
-  }
+/* 박스 내 링크에 호버 효과를 설정하여 배경을 반투명 흰색으로 변경합니다. */
+.box02 a:hover {
+  background-color: #ffffff50;
+}
 
-
-
-  .box02 {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 120px;
-    right: 0px;
-    display: block;
-    z-index: 5;
-    transition: 0.5s;
-  }
-
-  .box02 .info {
-    display: block;
-    width: 300px;
-    padding-top: 450px;
-    height: 300px;
-    margin: 0 auto;
-    font: 35px 'Black Han Sans';
-    color: #ffffff;
-  }
-
-  .box02 .mic {
-    margin: 0 auto;
-    display: block;
-    width: 50px;
-    height: auto;
-  }
-
+/* 화면 너비가 1200px 이하일 때의 스타일을 설정합니다. */
+@media screen and (max-width: 1200px) {
   .box02 p {
-    text-align: center;
-    font-size: 300px;
-    color: #d11d4c;
+    font-size: 350px;
   }
-
-
-  /* a{  display: inline-block; font-size: 35px; font-family: Black Han Sans; text-decoration: none; color: #ffffff; text-align: center;} */
-
-
-
-  /* .bg-coloar{width: 100%; height: 100pc; background-color: #00000070; position: fixed; z-index: 1; } */
-
-
-
-  .box02 a:hover {
-    background-color: #ffffff50;
-  }
-
-  @media screen and (max-width: 1200px) {
-    .box02 p {
-      font-size: 350px;
-    }
-
-    @media screen and (max-width: 980px) {}
-
-    @media screen and (max-width: 768px) {}
-
-    @media screen and (max-width: 640px) {}
-
-    @media screen and (max-width: 480px) {
-      #type1 .box01 {
-        width: 100%;
-      }
-
-      /* 한 줄 → 여러 줄*/
-    }
+}
