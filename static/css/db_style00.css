@@ -1,3 +1,4 @@
+/* 24.10.15 - 키패드 크기 변경 및 레이아웃 위치 변경 */
 body {
     font-family: 'Black Han Sans', Arial, sans-serif;
     /* 기본 글꼴을 Black Han Sans로 설정 */
@@ -8,7 +9,8 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* 결쟁정보창 위치 변경 24.10.15 */
+    align-items: flex-start; 
     height: 100vh;
     margin: 0;
 }
@@ -21,19 +23,21 @@ body {
     /* 모서리를 둥글게 */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     /* 좀 더 진한 그림자 추가 */
-    width: 500px;
+    width: 600px;
     /* 로그인 폼의 폭 설정 */
     max-width: 90%;
     /* 작은 화면에서도 넘치지 않게 조정 */
     box-sizing: border-box;
     /* 패딩 포함해서 폭 계산 */
-    height: 700px;
+    height: 1000px;
     /* 높이를 고정 */
+    /* 결재창 위치 조정 상부에서 24.10.15 */
+    margin-top: 200px;
 }
 
 .login-container h2 {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 120px;
     font: 80px 'Black Han Sans', Arial, sans-serif;
     /* 헤더 폰트 설정 */
 }
@@ -79,11 +83,13 @@ body {
 
 .messages {
     margin-bottom: 15px;
-    color: red;
+
     text-align: center;
     font-family: 'Black Han Sans', Arial, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 60px;
+    /* font-weight: bold; */ /* 시인성 제거*/
+    background-color: #f44336;  /* 배경색 빨간색 */
+    color: white;  /* 텍스트 색상 흰색 */
 }
 
 /* 숫자 키패드 팝업 스타일 */
@@ -93,8 +99,9 @@ body {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 300px;
-    height: 500px;
+    /* 키패드 입력 크기 변경 24.10.15 */
+    width: 700px;
+    height: 900px;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     padding: 10px;
@@ -102,9 +109,10 @@ body {
 }
 
 .number-pad button {
-    width: 70px;
-    height: 70px;
-    font-size: 45px;
+    /* 키패드 입력 크기 변경 24.10.15 */
+    width: 125px;
+    height: 125px;
+    font-size: 70px;
     margin: 5px;
     border: none;
     background-color: #ddd;
