@@ -20,6 +20,7 @@ urlpatterns = [
 
     # 'Ramen/' 경로로 시작하는 모든 요청을 Ramen 애플리케이션의 URL 설정으로 위임
     path('Ramen/', include('Ramen.urls')),
+    path('ramen/', include('Ramen.urls')),
 
     # 'common/' 경로로 시작하는 모든 요청을 common 애플리케이션의 URL 설정으로 위임
     path('common/', include('common.urls')),

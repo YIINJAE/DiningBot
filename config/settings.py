@@ -23,6 +23,7 @@ DEBUG = True
 
 # 허용할 호스트 목록 (운영 환경에서 사용될 IP 주소 또는 도메인)
 ALLOWED_HOSTS = ['192.168.1.210', 'localhost', '127.0.0.1']
+# ALLOWED_HOSTS = ['192.168.1.166', 'localhost', '127.0.0.1'] # 서버 ip
 
 
 # 애플리케이션 정의

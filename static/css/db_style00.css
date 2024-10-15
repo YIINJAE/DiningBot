@@ -1,4 +1,4 @@
-/* 24.10.15 - 키패드 크기 변경 및 레이아웃 위치 변경 */
+/* 24.10.15 - 키패드 크기 변경 및 레이아웃 위치 변경 & 다시주문 키 추가 */
 body {
     font-family: 'Black Han Sans', Arial, sans-serif;
     /* 기본 글꼴을 Black Han Sans로 설정 */
@@ -180,4 +180,123 @@ body {
 /* 전체 너비 버튼 */
 .triple {
     flex-basis: 100%;
+}
+
+/* 세 번째 박스 스타일 (하단 버튼 영역) */
+.box03 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    /* 가로 중앙 정렬 */
+    align-items: center;
+    /* 세로 중앙 정렬 */
+    flex-direction: row;
+    bottom: 130px;
+    /* 하단에서 130px 떨어짐 */
+    width: 100%;
+    /* 전체 너비 */
+}
+
+/* 세 번째 박스 안의 링크 스타일 */
+.box03 a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: 35px 'Black Han Sans';
+    /* 글꼴 설정 */
+    color: #ffffff;
+    /* 글자색 흰색 */
+    text-align: center;
+}
+
+/* 세 번째 박스 안의 왼쪽 버튼 */
+.box03 .left {
+    width: 450px;
+    /* 너비 설정 */
+    height: 150px;
+    /* 높이 설정 */
+    padding: 20px;
+    margin-right: 50px;
+    border: 1px solid #ffffff;
+    /* 흰색 테두리 */
+    border-radius: 300px;
+    /* 둥근 모서리 */
+}
+
+/* 세 번째 박스 안의 오른쪽 버튼 */
+.box03 .right {
+    width: 450px;
+    /* 너비 설정 */
+    height: 150px;
+    /* 높이 설정 */
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    /* 흰색 테두리 */
+    border-radius: 300px;
+    /* 둥근 모서리 */
+}
+
+/* 세 번째 박스 안의 아이콘 스타일 */
+.box03 .again,
+.box03 .check {
+    width: 40px;
+    /* 아이콘 크기 */
+    height: 40px;
+    margin-bottom: 10px;
+    /* 아이콘과 텍스트 사이 간격 */
+}
+
+/* 세 번째 박스 안의 버튼 텍스트 스타일 */
+.box03 p.btn {
+    flex-grow: 1;
+    /* 남은 공간을 채움 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* 세 번째 박스의 버튼 호버 효과 */
+.box03 a:hover {
+    background-color: #ffffff50;
+    /* 반투명 흰색 배경 */
+    border-radius: 300px;
+    /* 둥근 테두리 */
+}
+
+/* 작은 화면을 위한 세 번째 박스 스타일 */
+@media screen and (max-width: 1200px) {
+    .box03 {
+        bottom: 400px;
+        /* 하단에서 200px 떨어짐 */
+        flex-direction: column;
+        /* 수직 정렬 */
+        align-items: center;
+    }
+
+    .box03 a {
+        font: 50px 'Black Han Sans';
+        /* 큰 글꼴 */
+        color: #ffffff;
+        /* 흰색 */
+    }
+
+    .box03 .left,
+    .box03 .right {
+        width: 320px;
+        /* 너비 조정 */
+        height: 150px;
+        /* 높이 조정 */
+        padding: 20px;
+        margin: 10px 0;
+        /* 여백 설정 */
+    }
+
+    .box03 .again,
+    .box03 .check {
+        width: 50px;
+        /* 아이콘 크기 증가 */
+    }
 }

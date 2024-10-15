@@ -4,7 +4,8 @@ from django.contrib import messages  # 사용자에게 메시지를 전달하는
 import logging  # 로그 기록을 남기기 위한 모듈
 
 # PLC의 IP 주소를 설정
-plc_ip = "192.168.20.100"
+plc_ip = "192.168.20.100" # test ip
+# plc_ip = "192.168.20.100" # DiningBot plc ip
 
 # 주문 완료를 수동으로 처리하는 뷰
 def manual_oder_complete(request, count, employee_id):

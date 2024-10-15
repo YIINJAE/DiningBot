@@ -6,7 +6,8 @@ from Ramen.models import OrderStatus  # Django 모델 임포트
 from django.db import transaction  # 데이터베이스 트랜잭션 관리
 
 # Modbus 설정 (PLC의 IP와 기본 통신 설정)
-plc_ip = "192.168.20.100"
+plc_ip = "192.168.20.100" # test ip
+# plc_ip = "192.168.20.100" # DiningBot plc ip
 modbus_client = ModbusClient(host=plc_ip, unit_id=1, auto_open=True, auto_close=True)
 
 # 로깅 설정 (로그를 콘솔과 파일에 남기도록 설정)
