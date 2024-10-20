@@ -22,7 +22,7 @@ SECRET_KEY = 'django-insecure-*zx=+ba8-02np&+#3p%^#9_k6k@4urtg(lyhjl)+cqdxf=%93s
 DEBUG = True
 
 # 허용할 호스트 목록 (운영 환경에서 사용될 IP 주소 또는 도메인)
-ALLOWED_HOSTS = ['192.168.1.210', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['192.168.1.210', 'localhost', '127.0.0.1'] # 서버 ip
 # ALLOWED_HOSTS = ['192.168.1.166', 'localhost', '127.0.0.1'] # 서버 ip
 
 
@@ -82,6 +82,18 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',  # 데이터베이스 파일 경로
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',  # PostgreSQL 백엔드를 사용
+#         'NAME': 'postgres',                         # 기본 데이터베이스 이름
+#         'USER': 'postgres',                         # 기본 사용자 이름
+#         'PASSWORD': 'zxcv1234',                     # Docker 컨테이너 실행 시 설정한 비밀번호
+#         'HOST': 'localhost',                        # 데이터베이스 호스트. 도커 내부 네트워크에서 접근할 경우는 컨테이너 이름을 사용
+#         'PORT': '5432',                             # PostgreSQL의 기본 포트
+#     }
+# }
+
 
 
 # 비밀번호 검증기 설정 (비밀번호의 보안 기준을 정의)

@@ -2,7 +2,7 @@ from django.shortcuts import render
 from pyModbusTCP.client import ModbusClient  # Modbus TCP 통신을 위한 모듈
 from django.contrib import messages  # 사용자에게 메시지를 전달하는 기능
 import logging  # 로그 기록을 남기기 위한 모듈
-
+import time
 # PLC의 IP 주소를 설정
 plc_ip = "192.168.20.100" # test ip
 # plc_ip = "192.168.20.100" # DiningBot plc ip
@@ -18,10 +18,13 @@ def manual_oder_complete(request, count, employee_id):
     try:
         # PLC 명령 전송 시작
         if mainPlc.open():  # PLC 연결이 성공적으로 이루어졌는지 확인
-            # PLC에 레지스터 값을 기록 (40을 5010번 레지스터에 기록)
-            mainPlc.write_multiple_registers(5010, [40])
+            # 24.10.21 PLC 주문시에 카운터 쓰고 동작허가 40 출력 변경 YI.INJAE
             # PLC에 주문 수량을 5000번 레지스터에 기록
             mainPlc.write_multiple_registers(5000, [plc_oder_count])
+            time.sleep(0.5)
+            # PLC에 레지스터 값을 기록 (40을 5010번 레지스터에 기록)
+            mainPlc.write_multiple_registers(5010, [40])
+
             # 로그에 성공 메시지를 기록 (사번과 주문 수량 포함)
             logging.info(f'PLC에 주문 수량 {plc_oder_count} 전송 성공 - 사번: {employee_id}')
         else:
